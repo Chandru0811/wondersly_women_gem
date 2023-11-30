@@ -1,14 +1,29 @@
-import { Navbar, Container, Nav, NavDropdown, Offcanvas } from 'react-bootstrap';
+import {
+  Navbar,
+  Container,
+  Nav,
+  NavDropdown,
+  Offcanvas,
+} from "react-bootstrap";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   const expand = "lg";
   return (
     <>
-      <Navbar expand={expand} className="bg-body-tertiary mb-3 header" >
+      <Navbar expand={expand} className="bg-body-tertiary mb-3 header">
         <Container fluid>
-          <Navbar.Brand href="#"><img src={Logo} alt="WWG" className='img-fluid' width={80} height={80}/></Navbar.Brand>
+          <Navbar.Brand href="#">
+            <img
+              src={Logo}
+              alt="WWG"
+              className="img-fluid"
+              width={80}
+              height={80}
+            />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${expand}`}
@@ -17,13 +32,13 @@ function Header() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                Women
+              Wondrously Woman Gem
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
                 <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">About Us</Nav.Link>
+
                 <NavDropdown
                   title="Service"
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
@@ -37,11 +52,34 @@ function Header() {
                     Something else here
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#action2">Contact Us</Nav.Link>
+
+                <Nav.Link>
+                  <Link
+                    to="/"
+                    style={{
+                      color: "rgba(0, 0, 0, 0.85)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    About Us
+                  </Link>
+                </Nav.Link>
+
+                <Nav.Link>
+                  <Link
+                    to="/contact"
+                    style={{
+                      color: "rgba(0, 0, 0, 0.85)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    Contact Us
+                  </Link>
+                </Nav.Link>
               </Nav>
-              <Nav className='d-flex'> 
-                <button className='btn donateBtn'>Donate</button>
-                <button className='btn volunteerBtn'>Volunteer</button>
+              <Nav className="d-flex">
+                <button className="btn donateBtn">Donate</button>
+                <button className="btn volunteerBtn">Volunteer</button>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

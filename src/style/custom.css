@@ -54,6 +54,10 @@ nav .nav-link {
     line-height: normal;
 }
 
+nav .nav-link Link{
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+
 .donateBtn {
     border-radius: 4px;
     background: #DE3163;
