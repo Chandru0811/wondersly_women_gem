@@ -155,3 +155,47 @@ nav .nav-link Link{
     font-weight: 300 !important;
     line-height: 130%;
 }
+
+
+.contact_us .address{
+    background-color: rgb(120, 81, 169, 15%);
+    
+}
+
+.contact_us .member{
+    background-color: rgba(222, 49, 99, 0.1);
+}
+
+.contact_us .heading_word{
+    color: #22495F;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact_us .paragraph_word{
+    color: rgba(29, 33, 48, 0.7);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 450;
+}
+
+.contact_us .contactIcon{
+    margin-right: 10px;
+    color: rgba(29, 33, 48, 0.7);
+    font-size: 20px;
+}
+
+.contact_us .member{
+    background-color: rgba(222, 49, 99, 0.1);
+}
+
+.contact_us .my-button {
+    background-color: #7851A9;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.contact_us .volunteer{
+    background-color: rgba(120, 81, 169, 0.1);
+}

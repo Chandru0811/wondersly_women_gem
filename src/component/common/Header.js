@@ -13,7 +13,7 @@ function Header() {
   const expand = "lg";
   return (
     <>
-      <Navbar expand={expand} className="bg-body-tertiary mb-3 header">
+      <Navbar expand={expand} className="bg-body-tertiary header">
         <Container fluid>
           <Navbar.Brand href="#">
             <img
@@ -32,7 +32,7 @@ function Header() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-              Wondrously Woman Gem
+                Wondrously Woman Gem
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
