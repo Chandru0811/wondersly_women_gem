@@ -14,7 +14,7 @@ function Volunteer() {
           </div>
           <div className="col-lg-6 col-12">
             <p style={{ marginTop: "5px" }}>
-              <b>BE A VOLUNTEER</b>
+              <b >BE A VOLUNTEER</b>
             </p>
             <p style={{ fontSize: "30px", color: "#2E4049" }}>
               <b>Become a Member and Empower Single Moms: Join Our Cause!</b>

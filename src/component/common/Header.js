@@ -37,7 +37,17 @@ function Header() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Home</Nav.Link>
+                <Nav.Link>
+                <Link
+                    to="/"
+                    style={{
+                      color: "rgba(0, 0, 0, 0.85)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    Home
+                  </Link>
+                </Nav.Link>
 
                 <NavDropdown
                   title="Service"
@@ -55,7 +65,7 @@ function Header() {
 
                 <Nav.Link>
                   <Link
-                    to="/"
+                    to="/about"
                     style={{
                       color: "rgba(0, 0, 0, 0.85)",
                       textDecoration: "none",
