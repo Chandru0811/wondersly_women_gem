@@ -1,7 +1,8 @@
 import React from "react";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
-import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp  } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp  } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -24,7 +25,7 @@ function Footer() {
             <span className="d-flex">
               <FaInstagram className="footerIcon" />
               <FaFacebook className="footerIcon" />
-              <FaTwitter className="footerIcon" />
+              <FaXTwitter className="footerIcon" />
               <FaWhatsapp  className="footerIcon" />
             </span>
           </div>
