@@ -13,15 +13,7 @@ function OurBoard() {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
-              src={MohamadNasir}
-              className="img-fluid"
-              alt="Mdm_Anggun_Aida_AK"
-            />
-            <p>Hii</p>
-          </div>
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
-            <img
-              src={MariaAbdullah}
+              src={CommonBoard}
               className="img-fluid"
               alt="Mdm_Anggun_Aida_AK"
             />
@@ -30,6 +22,14 @@ function OurBoard() {
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
               src={AlanChang}
+              className="img-fluid"
+              alt="Mdm_Anggun_Aida_AK"
+            />
+            <p>Hii</p>
+          </div>
+          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+            <img
+              src={MohamadNasir}
               className="img-fluid"
               alt="Mdm_Anggun_Aida_AK"
             />
