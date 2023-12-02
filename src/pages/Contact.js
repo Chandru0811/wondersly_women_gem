@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import member_1 from "../asset/member_1.jpg";
 import member_2 from "../asset/member_2.jpg";
 import member_3 from "../asset/member_3.jpg";
-import Volunterr from "./Volunterr";
+import Volunterr from "../component/common/Volunterr";
 
 function Contact() {
   return (
