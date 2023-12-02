@@ -221,3 +221,9 @@ nav .nav-link Link{
 background-color: #eb0f4d;
 color: #ffff;
 }
+
+/* BoardCommittee */
+
+.BoardCommittee{
+    background-color: rgba(227, 107, 134, 0.2);
+}

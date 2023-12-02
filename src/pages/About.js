@@ -5,6 +5,8 @@ import WWGAbout from "../component/About/WWGAbout";
 import Goal from "../component/About/Goal";
 import History from "../component/About/History";
 import OurBoard from "../component/About/OurBoard";
+import BoardCommittee from "../component/About/BoardCommittee";
+import Services from "../component/About/Services";
 
 function About() {
   return (
@@ -41,6 +43,8 @@ function About() {
       <Goal />
       <History />
       <OurBoard />
+      <BoardCommittee />
+      <Services />
     </section>
   );
 }
