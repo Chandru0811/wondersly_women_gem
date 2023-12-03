@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/about.css";
+import "../style/custom.css";
 import AboutImage from "../asset/wwg_about.png";
 import WWGAbout from "../component/About/WWGAbout";
 import Goal from "../component/About/Goal";
