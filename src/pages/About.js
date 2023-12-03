@@ -7,6 +7,7 @@ import History from "../component/About/History";
 import OurBoard from "../component/About/OurBoard";
 import BoardCommittee from "../component/About/BoardCommittee";
 import Services from "../component/About/Services";
+import Testimonial from "../component/About/Testimonial";
 
 function About() {
   return (
@@ -45,6 +46,7 @@ function About() {
       <OurBoard />
       <BoardCommittee />
       <Services />
+      <Testimonial />
     </section>
   );
 }
