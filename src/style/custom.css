@@ -460,3 +460,14 @@ nav .nav-link Link {
     border: none;
     padding: 15px 35px;
 }
+
+/* Supporters  */
+
+.Supporters{
+    background-color: #de3162e8;
+}
+
+.Supporters h3{
+    color: #fff;
+    width: 60px;
+}
