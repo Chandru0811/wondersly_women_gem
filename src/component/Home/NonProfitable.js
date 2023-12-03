@@ -28,23 +28,23 @@ function NonProfitable() {
               skill-building programs.
             </p>
             <div className="row mt-3">
-              <div className="col-lg-5 col-md-5 col-11">
+              <div className="col-lg-5 col-md-5 col-10">
                 <p>
                   <b>Need your simple helpfor save children.</b>
                 </p>
               </div>
-              <div className="col-lg-2 col-md-2 col-11">
+              <div className="col-lg-1 col-md-1 col-1">
               <hr
                 className="dividedline border-bottom"
               ></hr>
               </div>
-              <div className="col-lg-5 col-md-5 col-11">
-                <p>
+              <div className="col-lg-6 col-md-6 col-11">
+                <p className="mt-1">
                   <b>Need your simple helpfor save children.</b>
                 </p>
               </div>
             </div>
-            <button type="button" className="Donatebtn btn btn-primary">Donate Now&nbsp;<MdOutlineArrowForwardIos /></button>
+            <button type="button" className="Donatebtn btn btn-primary my-3">Donate Now&nbsp;<MdOutlineArrowForwardIos /></button>
           </div>
         </div>
       </div>

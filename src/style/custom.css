@@ -421,6 +421,11 @@ nav .nav-link Link {
     border: 1.5px solid #7851A1;
 }
 
+.Help .Readbtn:hover{
+    background-color: #3A40D8;
+    color: #fff;
+}
+
 /* Non Profitable  */
 
 .NonProfitable {
@@ -447,11 +452,11 @@ nav .nav-link Link {
     transform: rotate(90deg);
     color: #5206ae;
     margin: 2rem 0;
-    height: 0.5px;
+    width: 50px;
 }
 
 .NonProfitable .Donatebtn{
     background-color: #DE3163;
     border: none;
-    padding: 10px 30px;
+    padding: 15px 35px;
 }
