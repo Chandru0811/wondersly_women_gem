@@ -178,3 +178,14 @@
     white-space: nowrap;
     /* 144.444% */
 }
+
+/* Our Events  */
+.ourEvents {
+    color: #22495F;
+    font-family: 'Nunito Sans';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    white-space: nowrap;
+}
