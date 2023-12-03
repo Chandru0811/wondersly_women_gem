@@ -405,3 +405,53 @@ nav .nav-link Link {
     color: #ffff;
 }
 
+/* Help  */
+
+
+.Help h1 {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    color: #22495F;
+}
+
+.Help .Readbtn {
+    background-color: #fff;
+    color: #3A40D8;
+    border-radius: 4px;
+    border: 1.5px solid #7851A1;
+}
+
+/* Non Profitable  */
+
+.NonProfitable {
+    background: rgba(120, 81, 169, 0.15);
+}
+
+.NonProfitable h1 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.NonProfitable p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.NonProfitable .dividedline {
+    transform: rotate(90deg);
+    color: #5206ae;
+    margin: 2rem 0;
+    height: 0.5px;
+}
+
+.NonProfitable .Donatebtn{
+    background-color: #DE3163;
+    border: none;
+    padding: 10px 30px;
+}
