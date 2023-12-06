@@ -7,7 +7,7 @@ function Aboutus() {
       <div className="container" style={{ paddingTop: "100px"}}>
         <div className="row">
           <div className="col-lg-7 col-md-6 col-12">
-            <img src={aboutUs} className="img-fluid"></img>
+            <img src={aboutUs} className="img-fluid" alt="aboutusImg"></img>
           </div>
           <div className="col-lg-5 col-md-6 col-12" style={{ marginTop: "150px"}}>
             <span className="d-flex align-items-center ">
