@@ -421,7 +421,7 @@ nav .nav-link Link {
     border: 1.5px solid #7851A1;
 }
 
-.Help .Readbtn:hover{
+.Help .Readbtn:hover {
     background-color: #3A40D8;
     color: #fff;
 }
@@ -455,7 +455,7 @@ nav .nav-link Link {
     width: 50px;
 }
 
-.NonProfitable .Donatebtn{
+.NonProfitable .Donatebtn {
     background-color: #DE3163;
     border: none;
     padding: 15px 35px;
@@ -463,23 +463,58 @@ nav .nav-link Link {
 
 /* Supporters  */
 
-.Supporters{
+.Supporters {
     background-color: #de3162e8;
     color: #c0bebe;
 }
 
-.Supporters h3{
+.Supporters h3 {
     color: #fff;
     width: 60px;
 }
 
-.Supporters .supportersIcon{
+.Supporters .supportersIcon {
     font-size: 25px;
 }
 
-.Supporters .supportersName{
+.Supporters .supportersName {
     font-weight: 800;
 }
+
+
+/* About Us  */
+
+.Aboutus .aboutName {
+    color: #252A34;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 1300;
+    text-transform: capitalize;
+}
+
+.Aboutus h1 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.Aboutus p {
+    color: #444;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+
 
 /* Testimonial  */
 
@@ -534,6 +569,23 @@ nav .nav-link Link {
     border-radius: 50%;
     width: 70px;
     height: 70px;
+}
+
+.react-multiple-carousel__arrow {
+    position: absolute;
+    margin-left: 60%;
+    margin-right: 15%;
+    background-color: transparent;
+    border: 2px solid #ffffffb0;
+    margin-top: 23%;
+}
+
+.react-multiple-carousel__arrow:hover {
+    background-color: #2d0261;
+}
+
+.testimonialArrow {
+    background: rgba(120, 81, 169, 0.95);
 }
 
 @media (max-width: 1311px) {
