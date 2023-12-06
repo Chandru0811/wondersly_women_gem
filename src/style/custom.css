@@ -465,9 +465,178 @@ nav .nav-link Link {
 
 .Supporters{
     background-color: #de3162e8;
+    color: #c0bebe;
 }
 
 .Supporters h3{
     color: #fff;
     width: 60px;
+}
+
+.Supporters .supportersIcon{
+    font-size: 25px;
+}
+
+.Supporters .supportersName{
+    font-weight: 800;
+}
+
+/* Testimonial  */
+
+.testimonial {
+    background: #EEEAFC;
+}
+
+.testimonialWhat {
+    color: #FFF;
+    font-family: 'Playfair Display';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.testimonialContainer {
+    background-color: #7951a9;
+    padding-left: 80px;
+}
+
+.testimonialPara {
+    color: #2A2A2A;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.testimonialAuthor {
+    color: #2A2A2A;
+    font-family: 'Playfair Display';
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.testimonialPosition {
+    color: #2A2A2A;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.testimonialImage {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+@media (max-width: 1311px) {
+    .react-multiple-carousel__arrow {
+        margin-top: 28% !important;
+    }
+}
+
+@media (max-width: 1150px) {
+    .react-multiple-carousel__arrow {
+        margin-top: 33% !important;
+    }
+}
+
+.Solution {
+    background: linear-gradient(to bottom, #EEEAFC 50%, #de3162b1 50%);
+}
+
+.solutiionAct {
+    color: #DE3163;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 0px;
+    /* 130% */
+}
+
+.solutionText {
+    color: #1D1D1D;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    /* 115% */
+}
+
+.solutionDonate {
+    border-radius: 5px;
+    background: #7851A9;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.solutionDonate:hover {
+    background: #4e00ad;
+    color: #fff;
+}
+
+.solutionBackground {
+    background: url("../asset/SolutionBackground.png");
+    background-size: cover;
+    position: relative;
+}
+
+.Count {
+    background: #de3162b1;
+}
+
+.supportersCount {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 0px;
+}
+
+.supportLine {
+    margin: 0px;
+    width: 80%;
+    text-align: center;
+    border: 2px solid #4e00ad;
+}
+
+.supportersText {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    white-space: nowrap;
+    /* 144.444% */
+}
+
+/* Our Events  */
+.ourEvents {
+    color: #22495F;
+    font-family: 'Nunito Sans';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    white-space: nowrap;
 }
