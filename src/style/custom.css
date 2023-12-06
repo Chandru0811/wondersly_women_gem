@@ -514,6 +514,33 @@ nav .nav-link Link {
     margin-top: 15px;
 }
 
+/* welcomeCharity  */
+
+.welcomeCharity{
+    background-color: rgba(222, 49, 99, 0.1);
+}
+
+.welcomeCharity h1 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.welcomeCharity p{
+    color: #444;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
 
 
 /* Testimonial  */

@@ -9,6 +9,7 @@ import Testimonial from "../component/About/Testimonial";
 import Solution from "../component/Home/Solution";
 import Count from "../component/Home/Count";
 import Aboutus from "../component/Home/Aboutus";
+import WelcomeCharity from "../component/Home/WelcomeCharity";
 
 function Home() {
   return (
@@ -19,13 +20,13 @@ function Home() {
       <WWGAbout />
       <Supporters />
       <Aboutus />
+      <WelcomeCharity />
       <OurEvents />
       <Testimonial />
       <Solution />
-      <Count />
+      <Count /> 
     </div>
   );
 }
 
 export default Home;
-
