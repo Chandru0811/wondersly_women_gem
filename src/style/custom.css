@@ -546,8 +546,8 @@ nav .nav-link Link {
 
 .welcomeCharity .card-title {
     color: #DE3163;
-    font-family: Nunito;
-    font-size: 20px;
+    font-family: 'Montserrat';
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 28px;
@@ -577,8 +577,9 @@ input[type="range"] {
 
 #SkillsKnow {
     color: #252A34;
-    font-family: Syne;
+    font-family: 'Montserrat' !important;
     font-size: 20px;
+    font-weight: 500 !important;
     font-style: normal;
     line-height: normal;
 }
