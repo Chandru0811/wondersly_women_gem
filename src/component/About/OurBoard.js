@@ -1,7 +1,7 @@
 import React from "react";
-import MohamadNasir from "../../asset/MrMohamadNasirSawal.png";
+import MohammedNasir from "../../asset/Mohammed_Nasir.png";
 import AlanChang from "../../asset/MrAlanChong.png";
-import CommonBoard from "../../asset/CommonBoard.png";
+import Mdm_Anggun_A from "../../asset/Mdm_Anggun_A.png";
 import { FaFacebook, FaInstagram, FaWhatsapp  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -14,7 +14,7 @@ function OurBoard() {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
-              src={CommonBoard}
+              src={Mdm_Anggun_A}
               className="img-fluid"
               alt="Mdm_Anggun_Aida_AK"
             />
@@ -44,12 +44,12 @@ function OurBoard() {
           </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
-              src={MohamadNasir}
+              src={MohammedNasir}
               className="img-fluid"
               alt="Mdm_Anggun_Aida_AK"
             />
-            <h5>Mr Mohamad Nasir Sawal</h5>
-            <p>Treasurer/ Secretary</p>
+            <h5>Mohammed Nasir</h5>
+            <p>Honorary Secretary/ Treasurer</p>
             <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
