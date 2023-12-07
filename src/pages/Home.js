@@ -10,6 +10,10 @@ import Solution from "../component/Home/Solution";
 import Count from "../component/Home/Count";
 import Aboutus from "../component/Home/Aboutus";
 import WelcomeCharity from "../component/Home/WelcomeCharity";
+import Awards from "../component/Home/Awards";
+import OurVolunteers from "../component/Home/OurVolunteers";
+import LatestCauses from "../component/Home/LatestCauses";
+import Contribute from "../component/Home/Contribute";
 
 function Home() {
   return (
@@ -21,6 +25,10 @@ function Home() {
       <Supporters />
       <Aboutus />
       <WelcomeCharity />
+      <LatestCauses />
+      <Awards />
+      <OurVolunteers />
+      <Contribute />
       <OurEvents />
       <Testimonial />
       <Solution />

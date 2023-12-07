@@ -509,14 +509,17 @@ nav .nav-link Link {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
     text-transform: capitalize;
     margin-top: 15px;
 }
 
+
+
 /* welcomeCharity  */
 
-.welcomeCharity{
+
+
+.welcomeCharity {
     background-color: rgba(222, 49, 99, 0.1);
 }
 
@@ -529,7 +532,7 @@ nav .nav-link Link {
     text-transform: capitalize;
 }
 
-.welcomeCharity p{
+.welcomeCharity p {
     color: #444;
     font-family: Montserrat;
     font-size: 16px;
@@ -539,6 +542,172 @@ nav .nav-link Link {
     /* 162.5% */
     text-transform: capitalize;
     margin-top: 15px;
+}
+
+.welcomeCharity .card-title {
+    color: #DE3163;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.welcomeCharity .card-body {
+    background-color: rgba(222, 49, 99, 0.2);
+}
+
+#RangeInput {
+    width: 90%;
+    background-color: #881212;
+    color: #000;
+    border-radius: none;
+}
+
+input[type="range"] {
+    accent-color: #DE3163;
+}
+
+#DownloadIcon {
+    background-color: transparent !important;
+    color: #000 !important;
+    font-size: 25px;
+}
+
+#SkillsKnow {
+    color: #252A34;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+
+#SkillsBox {
+    border: 3px solid #e43838;
+    background: #2F2F2F;
+    padding: 20px;
+}
+
+#SkillColor {
+    background: #2F2F2F;
+}
+
+
+/* Awards  */
+
+
+.awards .awardstitle {
+    color: var(--Title-color, #22495F);
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+.awardCountry {
+    color: #1d2130c4;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+/* Our Volunteer */
+
+.ourVolunteers {
+    background-color: rgba(120, 81, 169, 0.20);
+}
+
+.ourVolunteers .ourVolunteersText {
+    color: #2E4049;
+    text-align: center;
+    font-family: Shippori Mincho;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    padding-bottom: 20px;
+}
+
+.ourVolunteers .card {
+    background-color: rgba(222, 49, 99, 0.4);
+    border-radius: 0;
+    border: none;
+}
+
+.ourVolunteers .card-title {
+    color: #2E4049;
+    text-align: center;
+    font-family: Shippori Mincho;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 30px */
+}
+
+.ourVolunteers .card-text {
+    color: #2E4049;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.ourVolunteers .volunteerbtn {
+    border-radius: 34px;
+    background: #2E4049;
+    width: 201px;
+    height: 40px;
+    color: #FFF;
+    border: none;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.ourVolunteers .card-img-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contribute  */
+
+.contribute .card {
+    background: rgba(0, 0, 0, 0) url("../asset/contributeImg1.png") center center/cover no-repeat;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contribute .card-title {
+    color: #fff;
+}
+
+.contribute .Joinbtn {
+   background-color: #7851A9;
+   border: none;
+   border-radius: 0;
+}
+
+.contribute .Donatebtn {
+    background-color: #fff;
+    color: #7851A9;
+    border: none;
+    border-radius: 0;
 }
 
 

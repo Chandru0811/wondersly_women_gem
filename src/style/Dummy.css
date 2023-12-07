@@ -7,3 +7,44 @@
 #Dummy {
     color: rgb(255, 0, 0);
 }
+
+.ourEvents .Eventdate {
+    color: var(--Text-color, #374151);
+    font-family: Nunito Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    font-variant: small-caps;
+}
+
+.ourEvents .Eventmonth {
+    color: var(--Text-color, #374151);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.ourEvents .NextEvents {
+    color: var(--Text-color, #374151);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
+}
+
+.ourEvents .NextEventsText {
+    color: var(--Title-color, #22495F);
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 42px */
+}
+

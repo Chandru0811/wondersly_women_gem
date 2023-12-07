@@ -49,7 +49,7 @@ function Header() {
                   </Link>
                 </Nav.Link>
 
-                <NavDropdown
+                {/* <NavDropdown
                   title="Service"
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
                 >
@@ -61,7 +61,7 @@ function Header() {
                   <NavDropdown.Item href="#action5">
                     Something else here
                   </NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
 
                 <Nav.Link>
                   <Link
