@@ -47,7 +47,7 @@ function WelcomeCharity() {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-12">
-            <img src={welcomecharityImg} className="img-fluid"></img>
+            <img src={welcomecharityImg} className="img-fluid" alt="welcomecharityImg"></img>
           </div>
         </div>
       </div>
