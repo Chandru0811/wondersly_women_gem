@@ -2,7 +2,6 @@ import {
   Navbar,
   Container,
   Nav,
-  NavDropdown,
   Offcanvas,
 } from "react-bootstrap";
 import "../../style/custom.css";
