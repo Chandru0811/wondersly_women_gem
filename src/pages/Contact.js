@@ -8,7 +8,7 @@ import Volunterr from "../component/common/Volunterr";
 
 function Contact() {
   return (
-    <section className="contact_us">
+    <section className="contact_us" style={{ marginTop: '118px' }}>
       <div className="address">
         <div className="container">
           <div className="row" style={{ padding: "100px 0px" }}>

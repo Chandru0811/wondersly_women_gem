@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 function OurVolunteers() {
   return (
     <section className="ourVolunteers">
-      <div className="container d-flex flex-column align-items-center justify-content-center py-5">
+      <div className="container d-flex flex-column align-items-center justify-content-center py-3">
         <p className="ourBoardTeam">Team</p>
         <p className="ourVolunteersText">Meet Our Volunteers</p>
         <div className="row">

@@ -7,8 +7,9 @@ import Ms_Salyna from "../../asset/Ms_Salyna.png";
 import Mr_Leong_YH from "../../asset/Mr_Leong_YH.png";
 import Mr_Edwin_Koh from "../../asset/Mr_Edwin_Koh.png";
 import Mrs_Arin_Andi from "../../asset/Mrs_Arin_Andi.png";
-import { FaFacebook, FaInstagram, FaWhatsapp  } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import commonMen from "../../asset/commonMen.png";
+// import { FaFacebook, FaInstagram, FaWhatsapp  } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
 
 function BoardCommittee() {
   return (
@@ -25,12 +26,12 @@ function BoardCommittee() {
             />
             <h5>Mdm Roszilah</h5>
             <p>Member</p>
-            <span >
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
+            </span> */}
           </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
@@ -40,12 +41,12 @@ function BoardCommittee() {
             />
             <h5>Mrs Maria Abdullah</h5>
             <p>Board of Director (Women wing)</p>
-            <span >
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
+            </span> */}
           </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
@@ -55,12 +56,12 @@ function BoardCommittee() {
             />
             <h5>Ms Helen Loh</h5>
             <p>Board Committee Educator</p>
-            <span >
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
+            </span> */}
           </div>
         </div>
 
@@ -73,12 +74,12 @@ function BoardCommittee() {
             />
             <h5>Rosnawati Mohamed Zain</h5>
             <p>Board Committee Public Relation</p>
-            <span >
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
+            </span> */}
           </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
@@ -88,12 +89,12 @@ function BoardCommittee() {
             />
             <h5>Mrs Arin Andi</h5>
             <p>Board Committee Facilitator</p>
-            <span >
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
+            </span> */}
           </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
@@ -103,12 +104,12 @@ function BoardCommittee() {
             />
             <h5>Ms Salyna</h5>
             <p>Board Committee Secretary</p>
-            <span >
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
+            </span> */}
           </div>
         </div>
  
@@ -121,12 +122,12 @@ function BoardCommittee() {
             />
             <h5>Mr Leong YH</h5>
             <p>Board Committee Advisor</p>
-            <span >
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
+            </span> */}
           </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
@@ -136,29 +137,28 @@ function BoardCommittee() {
             />
             <h5>Mr Edwin Koh</h5>
             <p>Board Committee Youth Advisor</p>
-            <span >
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
+            </span> */}
           </div>
+      
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
-            <div style={{ visibility: 'hidden' }}>
             <img
-              src={CommonBoard}
+              src={commonMen}
               className="img-fluid"
-              alt="Mdm_Anggun_Aida_AK"
+              alt="Mr_Edwin_Koh"
             />
-            <h5>Ms Helen</h5>
-            <p>Member</p>
-            <span >
+            <h5>Mr Nagarajan VR</h5>
+            <p>Board Committee Director</p>
+            {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span>
-            </div>
+            </span> */}
           </div>
         </div>
       </div>

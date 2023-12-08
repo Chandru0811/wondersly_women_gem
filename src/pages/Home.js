@@ -17,15 +17,15 @@ import Contribute from "../component/Home/Contribute";
 
 function Home() {
   return (
-    <div>
+    <div style={{ marginTop: '118px' }}>
       <Hero />
       <Help />
       <NonProfitable />
-      <WWGAbout />
+      {/* <WWGAbout /> */}
       <Supporters />
       <Aboutus />
       <WelcomeCharity />
-      <LatestCauses />
+      {/* <LatestCauses /> */}
       <Awards />
       <OurVolunteers />
       <Contribute />

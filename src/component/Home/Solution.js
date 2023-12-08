@@ -5,7 +5,7 @@ function Solution() {
   return (
     <section className="Solution">
       <div className="container">
-        <div className="row py-5">
+        <div className="row py-2">
           <div className="offset-lg-1 col-lg-10  d-flex align-items-center justify-content-center">
             <div className="card " style={{ width: "100%" }}>
               <div className="solutionBackground">

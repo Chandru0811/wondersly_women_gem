@@ -6,9 +6,9 @@ import DonationIcon_1 from "../../asset/DonationIcon_1.png";
 function Help() {
   return (
     <div className="Help">
-      <div className="container py-5">
+      <div className="container pb-3">
         <div class="row ">
-          <h1 className="text-center my-5">How Could You Help?</h1>
+          <h1 className="text-center mt-3 mb-5">How Could You Help?</h1>
           <div class="col-lg-4 col-md-6 col-12 d-flex mb-3">
             <div className="card " style={{ width: "19rem" }}>
               <div class="serviceCard flex-fill d-flex flex-column align-items-center justify-content-center p-3">

@@ -5,7 +5,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 function OurEvents() {
   return (
     <section className="Eventlist">
-      <div className="container py-5">
+      <div className="container py-2">
         <span className="d-flex align-items-center justify-content-center">
           <span className="ourEvents">Our Events &nbsp;&nbsp;</span>
           <span style={{ width: "80%" }}>

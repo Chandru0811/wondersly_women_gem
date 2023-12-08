@@ -4,18 +4,18 @@ import NonProfitableImg from "../../asset/NonProfitableImg.png";
 
 function NonProfitable() {
   return (
-    <div className="NonProfitable py-5">
+    <div className="NonProfitable py-3">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-12">
+          <div className="col-lg-6 col-md-6 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
               src={NonProfitableImg}
               className="img-fluid"
               alt="NonProfitableImg"
             ></img>
           </div>
-          <div className="col-lg-6 col-md-6 col-12">
-            <h1 className="mt-5 pt-5">
+          <div className="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-center">
+            <h1>
               Givest is The Non Profitable Organization
             </h1>
             <p className="mt-3">
@@ -44,7 +44,7 @@ function NonProfitable() {
                 </p>
               </div>
             </div>
-            <button type="button" className="Donatebtn btn btn-primary my-3">Donate Now&nbsp;<MdOutlineArrowForwardIos /></button>
+            <button type="button" className="Donatebtn btn btn-primary my-3" style={{ width: '200px' }}>Donate Now&nbsp;<MdOutlineArrowForwardIos /></button>
           </div>
         </div>
       </div>

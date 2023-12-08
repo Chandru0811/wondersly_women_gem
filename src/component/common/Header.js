@@ -1,15 +1,14 @@
-import {
-  Navbar,
-  Container,
-  Nav,
-  Offcanvas,
-} from "react-bootstrap";
+// Inside your React component (Header.jsx)
+import React from "react";
+import { Navbar, Container, Nav, Offcanvas } from "react-bootstrap";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Header() {
   const expand = "lg";
+  const location = useLocation();
+
   return (
     <>
       <Navbar expand={expand} className="bg-body-tertiary header">
@@ -37,53 +36,43 @@ function Header() {
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
                 <Nav.Link>
-                <Link
+                  <NavLink
                     to="/"
+                    exact
+                    activeClassName="active" // Use your custom class for active link
                     style={{
                       color: "rgba(0, 0, 0, 0.85)",
                       textDecoration: "none",
                     }}
                   >
                     Home
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
 
-                {/* <NavDropdown
-                  title="Service"
-                  id={`offcanvasNavbarDropdown-expand-${expand}`}
-                >
-                  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    Something else here
-                  </NavDropdown.Item>
-                </NavDropdown> */}
-
                 <Nav.Link>
-                  <Link
+                  <NavLink
                     to="/about"
+                    activeClassName="active"
                     style={{
                       color: "rgba(0, 0, 0, 0.85)",
                       textDecoration: "none",
                     }}
                   >
                     About Us
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
 
                 <Nav.Link>
-                  <Link
+                  <NavLink
                     to="/contact"
+                    activeClassName="active"
                     style={{
                       color: "rgba(0, 0, 0, 0.85)",
                       textDecoration: "none",
                     }}
                   >
                     Contact Us
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
               </Nav>
               <Nav className="d-flex">

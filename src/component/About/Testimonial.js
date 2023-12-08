@@ -75,7 +75,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="testimonial py-5">
+    <section className="testimonial py-2">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-4 col-md-5 col-12 d-flex align-items-center justify-content-center testimonialContainer py-5 my-5 ">

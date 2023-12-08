@@ -5,7 +5,7 @@ import { PiNotePencilBold } from "react-icons/pi";
 
 function WelcomeCharity() {
   return (
-    <section className="welcomeCharity my-5">
+    <section className="welcomeCharity ">
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-12 order-lg-1 order-md-1 order-2">
