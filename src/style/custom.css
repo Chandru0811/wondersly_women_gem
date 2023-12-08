@@ -456,9 +456,14 @@ nav .nav-link Link {
 }
 
 .NonProfitable .Donatebtn {
-    background-color: #DE3163;
+    background-color: #de3163;
     border: none;
     padding: 15px 35px;
+}
+
+.NonProfitable .Donatebtn:hover{
+    background-color: #eb0f4d;
+    color: #fff;
 }
 
 /* Supporters  */
@@ -666,7 +671,7 @@ input[type="range"] {
 
 .ourVolunteers .volunteerbtn {
     border-radius: 34px;
-    background: #2E4049;
+    background-color: #2E4049;
     width: 201px;
     height: 40px;
     color: #FFF;
@@ -678,6 +683,11 @@ input[type="range"] {
     line-height: normal;
     text-transform: uppercase;
     padding-top: 10px;
+}
+
+.ourVolunteers .volunteerBtn:hover{
+    background-color: #65b4db;
+    color: #fff;
 }
 
 .ourVolunteers .card-img-top{
