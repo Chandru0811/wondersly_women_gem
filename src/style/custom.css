@@ -6,6 +6,10 @@
 
 /* TopBar  */
 .topbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
     background-color: #DE3163;
     color: #fff;
     padding: 5px 10px;
@@ -35,7 +39,11 @@
 /* Header  */
 
 .header {
-    background: rgba(222, 49, 99, 0.20) !important;
+    top: 32px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background: #f8d6e0 !important;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20);
     padding: 0px !important;
 }
@@ -95,6 +103,19 @@ nav .nav-link Link {
     background: #560eae;
     color: #fff;
 }
+
+/* Inside your CSS file (custom.css) */
+
+.active {
+    background-color: #b40436;
+    /* Your desired background color for active link */
+    color: #fff !important;
+    /* Your desired text color for active link */
+    font-weight: normal !important;
+    padding: 7px;
+    border-radius: 4px;
+}
+
 
 /* Footer  */
 .footerSection {
@@ -156,6 +177,7 @@ nav .nav-link Link {
     line-height: 130%;
 }
 
+/* Contact Us  */
 
 .contact_us .address {
     background-color: rgb(120, 81, 169, 15%);
@@ -267,6 +289,7 @@ nav .nav-link Link {
     background-color: #7851A9;
     color: white;
     padding: 10px 35px;
+    width: 200px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -387,6 +410,15 @@ nav .nav-link Link {
     background-color: rgba(120, 81, 169, 0.15);
 }
 
+.HeroHeading {
+    color: #252A34;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
 .Hero h1 {
     font-family: 'Playfair Display', sans-serif;
 }
@@ -394,6 +426,7 @@ nav .nav-link Link {
 .Hero .herobtn {
     background-color: #de3163;
     color: white;
+    width: 200px;
     padding: 10px 35px;
     border: none;
     border-radius: 4px;
@@ -456,20 +489,15 @@ nav .nav-link Link {
 }
 
 .NonProfitable .Donatebtn {
-    background-color: #de3163;
+    background-color: #DE3163;
     border: none;
     padding: 15px 35px;
-}
-
-.NonProfitable .Donatebtn:hover{
-    background-color: #eb0f4d;
-    color: #fff;
 }
 
 /* Supporters  */
 
 .Supporters {
-    background-color: #de3162e8;
+    background-color: #de3162bc;
     color: #c0bebe;
 }
 
@@ -484,6 +512,7 @@ nav .nav-link Link {
 
 .Supporters .supportersName {
     font-weight: 800;
+    color: #fff;
 }
 
 
@@ -604,7 +633,7 @@ input[type="range"] {
 
 
 .awards .awardstitle {
-    color: var(--Title-color, #22495F);
+    color: #22495F;
     text-align: center;
     font-family: Nunito Sans;
     font-size: 48px;
@@ -671,7 +700,7 @@ input[type="range"] {
 
 .ourVolunteers .volunteerbtn {
     border-radius: 34px;
-    background-color: #2E4049;
+    background: #2E4049;
     width: 201px;
     height: 40px;
     color: #FFF;
@@ -685,12 +714,7 @@ input[type="range"] {
     padding-top: 10px;
 }
 
-.ourVolunteers .volunteerBtn:hover{
-    background-color: #65b4db;
-    color: #fff;
-}
-
-.ourVolunteers .card-img-top{
+.ourVolunteers .card-img-top {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -709,9 +733,9 @@ input[type="range"] {
 }
 
 .contribute .Joinbtn {
-   background-color: #7851A9;
-   border: none;
-   border-radius: 0;
+    background-color: #7851A9;
+    border: none;
+    border-radius: 0;
 }
 
 .contribute .Donatebtn {
@@ -785,6 +809,7 @@ input[type="range"] {
     background-color: transparent;
     border: 2px solid #ffffffb0;
     margin-top: 23%;
+    z-index: 10 !important;
 }
 
 .react-multiple-carousel__arrow:hover {
