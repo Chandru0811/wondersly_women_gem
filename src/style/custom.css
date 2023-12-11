@@ -177,6 +177,14 @@ nav .nav-link Link {
     line-height: 130%;
 }
 
+/* Error Page  */
+
+.errorPage .gotoBtn{
+    background-color: #ff81ae;
+    border: none;
+    border-radius: 20px;
+}
+
 /* Contact Us  */
 
 .contact_us .address {
