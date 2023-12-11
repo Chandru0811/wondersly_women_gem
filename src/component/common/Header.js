@@ -3,11 +3,10 @@ import React from "react";
 import { Navbar, Container, Nav, Offcanvas } from "react-bootstrap";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const expand = "lg";
-  const location = useLocation();
 
   return (
     <>
