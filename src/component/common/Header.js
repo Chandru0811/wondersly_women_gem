@@ -1,6 +1,12 @@
 // Inside your React component (Header.jsx)
 import React from "react";
-import { Navbar, Container, Nav, Offcanvas } from "react-bootstrap";
+import {
+  Navbar,
+  Container,
+  Nav,
+  Offcanvas,
+  NavDropdown,
+} from "react-bootstrap";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
 import { NavLink } from "react-router-dom";
@@ -38,7 +44,7 @@ function Header() {
                   <NavLink
                     to="/"
                     exact
-                    activeClassName="active" // Use your custom class for active link
+                    activeClassName="active"
                     style={{
                       color: "rgba(0, 0, 0, 0.85)",
                       textDecoration: "none",
@@ -47,6 +53,54 @@ function Header() {
                     Home
                   </NavLink>
                 </Nav.Link>
+
+                <NavDropdown
+                  title="Events"
+                  exact
+                  activeClassName="active"
+                  id={`offcanvasNavbarDropdown-expand-${expand}`}
+                >
+                  <NavDropdown.Item className="eventList">
+                  <NavLink
+                    to="/events/ladyboss"
+                    exact
+                    activeClassName="actives"
+                    style={{
+                      color: "rgba(0, 0, 0, 0.85)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    LadyBoss
+                  </NavLink>
+                    </NavDropdown.Item>
+                  <NavDropdown.Item className="eventList">
+                  <NavLink
+                    to="/events/youth"
+                    exact
+                    activeClassName="actives"
+                    style={{
+                      color: "rgba(0, 0, 0, 0.85)",
+                      textDecoration: "none",
+                      width: "100%"
+                    }}
+                  >
+                    Youth
+                  </NavLink>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item className="eventList">
+                  <NavLink
+                    to="/events/child"
+                    exact
+                    activeClassName="actives"
+                    style={{
+                      color: "rgba(0, 0, 0, 0.85)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    Children
+                  </NavLink>
+                  </NavDropdown.Item>
+                </NavDropdown>
 
                 <Nav.Link>
                   <NavLink

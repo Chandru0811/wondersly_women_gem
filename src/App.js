@@ -9,6 +9,9 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Page404 from "./component/common/404";
 import Dummy from "./pages/Dummy";
+import Youth from "./pages/Events/Youth";
+import LadyBoss from "./pages/Events/LadyBoss";
+import Child from "./pages/Events/Children";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/events/youth" element={<Youth />} />
+          <Route path="/events/child" element={<Child />} />
+          <Route path="/events/ladyboss" element={<LadyBoss />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/home" element={<Dummy />} />

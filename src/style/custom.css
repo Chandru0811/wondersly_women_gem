@@ -104,18 +104,21 @@ nav .nav-link Link {
     color: #fff;
 }
 
-/* Inside your CSS file (custom.css) */
-
 .active {
     background-color: #b40436;
-    /* Your desired background color for active link */
     color: #fff !important;
-    /* Your desired text color for active link */
     font-weight: normal !important;
     padding: 7px;
     border-radius: 4px;
 }
 
+/* Navbar Dropdown  */
+
+
+.eventList:hover{
+    color: #fff;
+    background-color: #7851A9;
+}
 
 /* Footer  */
 .footerSection {
