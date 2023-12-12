@@ -1018,19 +1018,53 @@ input[type="range"] {
     font-weight: 800;
 }
 
-.ladyHero .ladybosseventsLine{
+.ladyHero .ladybosseventsLine {
     width: 1024px;
     height: 5px;
     background-color: #fff;
 }
 
-.ladyHero .ladybossheroContent{
+.ladyHero .ladybossheroContent {
     font-size: 26px;
     font-weight: 500;
 }
 
 /* About Lady Boss   */
 
-.aboutladyBoss .aboutladybossContent{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../asset/About\ LadyBoss\ Content.png"), no-repeat;
+.aboutladyBoss .aboutladybossContent {
+    background: linear-gradient(0deg, rgba(222, 49, 99, 0.7) 0%, rgba(222, 49, 99, 0.7) 100%), url("../asset/About\ LadyBoss\ Content.png"), no-repeat;
 }
+
+/* .aboutladyBoss .row {
+    padding-right: 0;
+} */
+
+.aboutladyBoss .ladybossHeading {
+    font-family: Shippori Mincho;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.aboutladyBoss .ladybossQuotes {
+    font-family: Shippori Mincho;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.aboutladyBoss .turningContent{
+    font-family: Nunito;
+    font-size: 20px;
+    color: #fff;
+}
+
+.aboutladyBoss .col-lg-2 {
+    height: 100vh;
+  }
+  
+  .aboutladyBoss .half-image-top {
+    margin-left: 210px;
+  }
+  
+  
