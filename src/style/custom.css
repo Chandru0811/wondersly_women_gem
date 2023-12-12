@@ -115,7 +115,7 @@ nav .nav-link Link {
 /* Navbar Dropdown  */
 
 
-.eventList:hover{
+.eventList:hover {
     color: #fff;
     background-color: #7851A9;
 }
@@ -182,7 +182,7 @@ nav .nav-link Link {
 
 /* Error Page  */
 
-.errorPage .gotoBtn{
+.errorPage .gotoBtn {
     background-color: #ff81ae;
     border: none;
     border-radius: 20px;
@@ -756,6 +756,67 @@ input[type="range"] {
     border-radius: 0;
 }
 
+/* Our Events  */
+
+.Eventlist .Eventdate {
+    color: var(--Text-color, #374151);
+    font-family: Nunito Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    font-variant: small-caps;
+}
+
+.Eventlist .Eventmonth {
+    color: var(--Text-color, #374151);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.Eventlist .NextEvents {
+    color: var(--Text-color, #374151);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.Eventlist .NextEventsText {
+    color: var(--Title-color, #22495F);
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 42px */
+}
+
+.Eventlist .NextEvents {
+    color: #22495F;
+    margin-bottom: 0px;
+    font-family: "Nunito Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.Eventlist p {
+    margin-bottom: 0;
+}
+
+.Eventlist .eventIcon {
+    font-size: 30px;
+    color: #fff;
+}
+
 
 
 /* Testimonial  */
@@ -934,4 +995,42 @@ input[type="range"] {
     font-weight: 700;
     line-height: 140%;
     white-space: nowrap;
+}
+
+
+/* Events  */
+
+/* Lady Boss  */
+
+/* Lady Hero  */
+
+.ladyHero {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../asset/ladyBoyBackground.png"), no-repeat;
+}
+
+.ladyHero {
+    color: #fff;
+    font-family: Roboto;
+}
+
+.ladyHero .ladybosseventsText {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.ladyHero .ladybosseventsLine{
+    width: 1024px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.ladyHero .ladybossheroContent{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+/* About Lady Boss   */
+
+.aboutladyBoss .aboutladybossContent{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../asset/About\ LadyBoss\ Content.png"), no-repeat;
 }

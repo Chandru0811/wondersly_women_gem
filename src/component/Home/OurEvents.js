@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/Dummy.css";
+// import "../../style/Dummy.css";
 import { FaArrowCircleRight } from "react-icons/fa";
 
 function OurEvents() {
