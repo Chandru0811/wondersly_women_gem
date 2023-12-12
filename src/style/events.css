@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Youth */
+
+.youthHero {
+    background: linear-gradient(0deg, rgba(222, 49, 99, 0.60) 0%, rgba(222, 49, 99, 0.60) 100%), url(../asset/youthBackground.png), lightgray 50% / cover no-repeat;
+}
+
+.youthEvents {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 0px;
+    line-height: normal;
+}
+
+.youthHr {
+    color: #FFF;
+    background: #FFF !important;
+    height: 5px;
+}
+
+.youthEventsPara {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.allUpcoming {
+    color: #22495F;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sunriseImage {
+    background: linear-gradient(to right, #de3162b1 70%, #fff 30%);
+}
+
+.sunriseHeading {
+    color: #DE3163;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 48px */
+}
+
+.sunriseHr {
+    color: #22495FB2;
+    background: #22495FB2 !important;
+    height: 5px;
+}
+
+.sunrisePara {
+    color: #555;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sunrisePara2 {
+    color: #555;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.youthAdverdisement{
+    background: linear-gradient(to bottom, #fff 60%, #de3162b1 40%);
+}
