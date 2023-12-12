@@ -8,15 +8,14 @@ function AboutLadyBoss() {
         <div className="row">
           <p className="ourBoardTeam mt-3">Events</p>
           <h1 className="ourBoardTeamText mb-5">LadyBoss Business Connect</h1>
-          <div className="col-lg-2 col-md-1 col-1 d-flex flex-column align-items-center">
+          <div className="col-lg-3 col-md-1 col-1 d-flex flex-column align-items-center justify-content-center">
             <img
               src={LadyBossLogo}
               className="img-fluid half-image-top"
               alt="ladybossLogo"
-              style={{ maxWidth: "100%", maxHeight: "100%" }}
             />
           </div>
-          <div className="col-lg-10 col-md-11 col-11">
+          <div className="col-lg-9 col-md-11 col-11">
             <div className="aboutladybossContent row">
               <div className="col-lg-1 col-md-1 col-1"></div>
               <div className="col-lg-10 col-md-10 col-10">

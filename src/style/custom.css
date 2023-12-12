@@ -1059,12 +1059,14 @@ input[type="range"] {
     color: #fff;
 }
 
-.aboutladyBoss .col-lg-2 {
-    height: 100vh;
-  }
-  
-  .aboutladyBoss .half-image-top {
-    margin-left: 210px;
-  }
+/* Lady BossBC  */
+
+.ladybossBCtitle{
+    background-color: rgba(222, 49, 99, 0.2);
+    font-family: Nunito;
+    font-size: 24px;
+    color: #2E4049;
+    font-style: normal;
+}
   
   
