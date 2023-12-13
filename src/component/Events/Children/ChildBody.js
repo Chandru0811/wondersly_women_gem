@@ -6,13 +6,13 @@ import Children3 from "../../../asset/Children3.png";
 function ChildBody() {
   return (
     <section style={{ backgroundColor: '#E36B8633' }}>
-      <div className="container-fluid">
+      <div className="container-fluid pb-5">
         <div className="row">
           <p className="children pt-4">Childrens</p>
           <p className="childrenHeading">Youthful Explorers Zone</p>
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center sunriseImage py-4">
-              <img className="img-fluid" src={Children1} alt="SunRise" />
+            <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center ChildrenImage py-4">
+              <img className="img-fluid" src={Children3} alt="SunRise" />
             </div>
             <div className="col-lg-8 col-md-8 col-12 d-flex flex-column justify-content-center  py-4 px-2">
               <h2 className="childHeading pb-4">
@@ -40,7 +40,7 @@ function ChildBody() {
                 encourage physical activity and artistic expression.
               </p>
             </div>
-            <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center sunriseImage py-4">
+            <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center ChildrenImage1 py-4 mb-3">
               <img className="img-fluid" src={Children2} alt="SunRise" />
             </div>
           </div>
@@ -48,8 +48,8 @@ function ChildBody() {
 
         <div className="row">
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center sunriseImage py-4">
-              <img className="img-fluid" src={Children3} alt="SunRise" />
+            <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center ChildrenImage py-4">
+              <img className="img-fluid" src={Children1} alt="SunRise" />
             </div>
             <div className="col-lg-8 col-md-8 col-12 d-flex flex-column justify-content-center  py-4 px-2">
               <h2 className="childHeading pb-4">Educational Enrichment</h2>

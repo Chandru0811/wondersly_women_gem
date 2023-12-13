@@ -3,19 +3,19 @@ import LadyBossLogo from "../../../asset/LadyBossLogo.png";
 
 function AboutLadyBoss() {
   return (
-    <section className="aboutladyBoss mb-3">
+    <section className="aboutladyBoss mb-5">
       <div className="container-fluid">
         <div className="row">
           <p className="ourBoardTeam mt-3">Events</p>
           <h1 className="ourBoardTeamText mb-5">LadyBoss Business Connect</h1>
-          <div className="col-lg-3 col-md-1 col-1 d-flex flex-column align-items-center justify-content-center">
+          <div className="col-lg-3 col-md-6 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
               src={LadyBossLogo}
               className="img-fluid half-image-top"
               alt="ladybossLogo"
             />
           </div>
-          <div className="col-lg-9 col-md-11 col-11">
+          <div className="col-lg-9 col-md-6 col-12">
             <div className="aboutladybossContent row">
               <div className="col-lg-1 col-md-1 col-1"></div>
               <div className="col-lg-10 col-md-10 col-10">

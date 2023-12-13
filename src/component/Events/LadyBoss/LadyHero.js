@@ -3,7 +3,7 @@ import React from "react";
 function LadyHero() {
   return (
     <section className="ladyHero">
-      <div className="container d-flex align-items-center" style={{ minHeight: "86vh" }}>
+      <div className="container d-flex align-items-center" style={{ minHeight: "70vh" }}>
         <div className="row">
           <h1 className="ladybosseventsText">Events</h1>
           <hr className="ladybosseventsLine"></hr>

@@ -130,3 +130,11 @@
     line-height: 120%;
     /* 24px */
 }
+
+.ChildrenImage {
+    background: linear-gradient(to right, #de3162b1 70%, #dbb6be00 30%);
+}
+
+.ChildrenImage1 {
+    background: linear-gradient(to left, #de3162b1 70%, #dbb6be00 30%);
+}
