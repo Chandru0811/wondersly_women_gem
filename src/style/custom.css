@@ -126,12 +126,12 @@ nav .nav-link Link {
     padding-top: 7px;
     padding-bottom: 7px;
     border-radius: 4px;
-  }
-  
-  .active-events-title {
+}
+
+.active-events-title {
     padding: 2px;
     color: #fff !important;
-  }
+}
 
   .navbar .nav-link.actives {
     color: #fff !important;
@@ -143,7 +143,7 @@ nav .nav-link Link {
 
 nav .eventList:hover {
     color: #fff; 
-    background-color: #b40436;
+    background-color: #b404362c;
 }
 
 /* Footer  */

@@ -60,8 +60,6 @@ function Header() {
 
                 <NavDropdown
                   title="Events"
-
-
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
                   className={isActive("/events") ? "active active-events-title" : ""}
                 >
@@ -84,8 +82,8 @@ function Header() {
                       exact
                       activeClassName="actives"
                       style={{
-                        color: "rgba(0, 0, 0, 0.85)",
                         width: "100%",
+                        color: "rgba(0, 0, 0, 0.85)",
                         textDecoration: "none",
                       }}
                     >
