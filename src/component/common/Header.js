@@ -1,4 +1,3 @@
-// Inside your React component (Header.jsx)
 import React from "react";
 import {
   Navbar,
@@ -9,10 +8,15 @@ import {
 } from "react-bootstrap";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Header() {
   const expand = "lg";
+  const location = useLocation();
+
+  const isActive = (path) => {
+    return location.pathname.includes(path);
+  };
 
   return (
     <>
@@ -44,7 +48,7 @@ function Header() {
                   <NavLink
                     to="/"
                     exact
-                    activeClassName="active"
+                    activeClassName="actives"
                     style={{
                       color: "rgba(0, 0, 0, 0.85)",
                       textDecoration: "none",
@@ -56,49 +60,51 @@ function Header() {
 
                 <NavDropdown
                   title="Events"
-                  exact
-                  activeClassName="active"
+
+
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
+                  className={isActive("/events") ? "active active-events-title" : ""}
                 >
                   <NavDropdown.Item className="eventList">
-                  <NavLink
-                    to="/events/ladyboss"
-                    exact
-                    activeClassName="actives"
-                    style={{
-                      color: "rgba(0, 0, 0, 0.85)",
-                      textDecoration: "none",
-                    }}
-                  >
-                    LadyBoss
-                  </NavLink>
-                    </NavDropdown.Item>
-                  <NavDropdown.Item className="eventList">
-                  <NavLink
-                    to="/events/youth"
-                    exact
-                    activeClassName="actives"
-                    style={{
-                      color: "rgba(0, 0, 0, 0.85)",
-                      textDecoration: "none",
-                      width: "100%"
-                    }}
-                  >
-                    Youth
-                  </NavLink>
+                    <NavLink
+                      to="/events/ladyboss"
+                      exact
+                      activeClassName="actives"
+                      style={{
+                        color: "rgba(0, 0, 0, 0.85)",
+                        textDecoration: "none",
+                      }}
+                    >
+                      LadyBoss
+                    </NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item className="eventList">
-                  <NavLink
-                    to="/events/child"
-                    exact
-                    activeClassName="actives"
-                    style={{
-                      color: "rgba(0, 0, 0, 0.85)",
-                      textDecoration: "none",
-                    }}
-                  >
-                    Children
-                  </NavLink>
+                    <NavLink
+                      to="/events/youth"
+                      exact
+                      activeClassName="actives"
+                      style={{
+                        color: "rgba(0, 0, 0, 0.85)",
+                        width: "100%",
+                        textDecoration: "none",
+                      }}
+                    >
+                      Youth
+                    </NavLink>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item className="eventList">
+                    <NavLink
+                      to="/events/child"
+                      exact
+                      activeClassName="actives"
+                      style={{
+                        color: "rgba(0, 0, 0, 0.85)",
+                        width: "100%",
+                        textDecoration: "none",
+                      }}
+                    >
+                      Children
+                    </NavLink>
                   </NavDropdown.Item>
                 </NavDropdown>
 

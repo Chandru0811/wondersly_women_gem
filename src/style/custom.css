@@ -104,20 +104,46 @@ nav .nav-link Link {
     color: #fff;
 }
 
+
+
 .active {
     background-color: #b40436;
     color: #fff !important;
     font-weight: normal !important;
-    padding: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     border-radius: 4px;
 }
+
+.actives {
+    background-color: #b40436;
+    color: #fff !important;
+    font-weight: normal !important;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+  }
+  
+  .active-events-title {
+    padding: 2px;
+    color: #fff !important;
+  }
+
+  .navbar .nav-link.actives {
+    color: #fff !important;
+}
+
 
 /* Navbar Dropdown  */
 
 
-.eventList:hover {
-    color: #fff;
-    background-color: #7851A9;
+nav .eventList:hover {
+    color: #fff; 
+    background-color: #b40436;
 }
 
 /* Footer  */
