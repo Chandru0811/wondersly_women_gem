@@ -13,7 +13,7 @@ function OurEvents() {
             <hr />
           </span>
         </span>
-        <div className="row mt-5">
+        <div className="row mt-5 mb-3">
           <div className="col-lg-6 col-md-6 col-12">
             <Link to="/events/youth" style={{ textDecoration: 'none' }}>
               <span

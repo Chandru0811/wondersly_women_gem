@@ -7,7 +7,8 @@ import Ms_Salyna from "../../asset/Ms_Salyna.png";
 import Mr_Leong_YH from "../../asset/Mr_Leong_YH.png";
 import Mr_Edwin_Koh from "../../asset/Mr_Edwin_Koh.png";
 import Mrs_Arin_Andi from "../../asset/Mrs_Arin_Andi.png";
-import commonMen from "../../asset/commonMen.png";
+// import commonMen from "../../asset/commonMen.png";
+import Mr_Nagarajan from "../../asset/Mr_Nagarajan.png";
 // import { FaFacebook, FaInstagram, FaWhatsapp  } from "react-icons/fa";
 // import { FaXTwitter } from "react-icons/fa6";
 
@@ -147,7 +148,7 @@ function BoardCommittee() {
       
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
-              src={commonMen}
+              src={Mr_Nagarajan}
               className="img-fluid"
               alt="Mr_Edwin_Koh"
             />
