@@ -1,8 +1,8 @@
 // Topbar.js
 
 import React from "react";
-import { FaPhoneAlt, FaFacebook, FaInstagram, FaWhatsapp  } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaPhoneAlt  } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
 import "../../style/custom.css";
 
 const Topbar = () => {
@@ -14,10 +14,10 @@ const Topbar = () => {
       </div>
 
       <div className="socialIcons">
-        <FaInstagram className="icon" />
+        {/* <FaInstagram className="icon" />
         <FaFacebook className="icon" />
         <FaXTwitter className="icon" />
-        <FaWhatsapp className="icon" />
+        <FaWhatsapp className="icon" /> */}
       </div>
     </div>
   );

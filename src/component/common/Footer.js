@@ -66,7 +66,7 @@ function Footer() {
                   </span>
                   <span className="footerContent">
                     wwgem2015@gmail.com <br />
-                    82696181
+                    +65 82696181
                   </span>
                 </span>
               </div>

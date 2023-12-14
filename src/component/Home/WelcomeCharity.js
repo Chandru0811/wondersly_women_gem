@@ -8,7 +8,7 @@ function WelcomeCharity() {
     <section className="welcomeCharity ">
       <div className="container py-5">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-12 order-lg-1 order-md-1 order-2">
+          <div className="col-lg-6 col-md-6 col-12 order-lg-1 order-md-1 order-2 d-flex flex-column justify-content-center">
             <span className="d-flex align-items-center ">
               <span className="aboutName">
                 <b>Welcome to Charity</b> &nbsp;&nbsp;
@@ -19,59 +19,83 @@ function WelcomeCharity() {
             </span>
             <h1>Let Us Come Together To Make a Difference</h1>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy tempor invidunt ut labore et dolore magna aliquyam erat,
-              sed diam voluptua. At vero eos et accusam et justo.
+              Welcome to Wondersly Women Gem, where compassion meets action.
+              At Wondersly Women Gem, we believe in the power of unity and
+              collective efforts to create positive change in the world. Our
+              mission is to inspire individuals, communities, and organizations
+              to come together and make a lasting impact on the lives of those
+              in need.
             </p>
             <div className="row">
               <div className="col-lg-6 col-md-12 col-12">
-                <div class="card mb-2" style={{ width: "13rem" }}>
+                <div class="card h-100 mb-2" style={{ width: "13rem" }}>
                   <div class="card-body">
                     <h5 class="card-title">
                       <IoShieldCheckmarkSharp /> Our mission
                     </h5>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                      sed diam
+                      Inspire change in life, building a motivated and
+                      progressive family.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-12">
-                <div class="card mb-2" style={{ width: "13rem" }}>
+                <div class="card h-100 mb-2" style={{ width: "13rem" }}>
                   <div class="card-body">
                     <h5 class="card-title">
                       <PiNotePencilBold /> Our vission
                     </h5>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                      sed diam
+                      A community of successful individual with pride and
+                      dignity to achieve it's goals.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="d-flex align-items-center justify-content-between " style={{width:"90%"}}>
-              <span>
-                <p id="SkillsKnow"><b>Donations</b></p>
-              </span>
-              <span>
-                <p id="SkillsKnow">75%</p>
-              </span>
+              {/* <div
+                className="d-flex align-items-center justify-content-between "
+                style={{ width: "90%" }}
+              >
+                <span>
+                  <p id="SkillsKnow">
+                    <b>Donations</b>
+                  </p>
+                </span>
+                <span>
+                  <p id="SkillsKnow">75%</p>
+                </span>
+              </div>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="75"
+                id="RangeInput"
+              /> */}
+              {/* <div
+                className="d-flex align-items-center justify-content-between"
+                style={{ width: "90%" }}
+              >
+                <span>
+                  <p id="SkillsKnow">
+                    <b>Medical Help</b>
+                  </p>
+                </span>
+                <span>
+                  <p id="SkillsKnow">90%</p>
+                </span>
+              </div>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="90"
+                id="RangeInput"
+              /> */}
             </div>
-            <input type="range" min="1" max="100" value="75" id="RangeInput" />
-            <div className="d-flex align-items-center justify-content-between" style={{width:"90%"}}>
-              <span>
-                <p id="SkillsKnow"><b>Medical Help</b></p>
-              </span>
-              <span>
-                <p id="SkillsKnow">90%</p>
-              </span>
-            </div>
-            <input type="range" min="1"  max="100" value="90" id="RangeInput" />
-            </div>
-            
           </div>
-          <div className="col-lg-6 col-md-6 col-12 order-lg-2 order-md-2 order-1" >
+          <div className="col-lg-6 col-md-6 col-12 order-lg-2 order-md-2 order-1">
             <img
               src={welcomecharityImg}
               className="img-fluid"
