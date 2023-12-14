@@ -10,6 +10,7 @@ import Testimonial from "../component/About/Testimonial";
 // import Count from "../component/Home/Count";
 import Aboutus from "../component/Home/Aboutus";
 import WelcomeCharity from "../component/Home/WelcomeCharity";
+import DonateNow from "../component/Home/DonateNow";
 // import Awards from "../component/Home/Awards";
 // import OurVolunteers from "../component/Home/OurVolunteers";
 // import LatestCauses from "../component/Home/LatestCauses";
@@ -25,6 +26,7 @@ function Home() {
       {/* <Supporters /> */}
       <Aboutus />
       <WelcomeCharity />
+      <DonateNow />
       {/* <LatestCauses /> */}
       {/* <Awards /> */}
       {/* <OurVolunteers /> */}
@@ -33,6 +35,7 @@ function Home() {
       <Testimonial />
       {/* <Solution />
       <Count />  */}
+      
     </div>
   );
 }

@@ -1106,5 +1106,53 @@ input[type="range"] {
     background-color: rgba(222, 49, 99, 0.2);
 }
 
+/* Youth  */
+
+/* Youth Body  */
+
+.tripcontent{
+    background-color: rgba(120, 81, 169, 0.15);
+}
+
+.custom-justify-content-end {
+    justify-content: flex-end;
+  }
+
+.tournament{
+    background-color: rgba(227, 107, 134, 0.2);
+}
+
+.Futsal{
+    color: #DE3163;
+    font-size: 33px;
+    font-family: Roboto;
+}
+
+.Latest_Program .ladybossbcTitle{
+    background-color: rgba(222, 49, 99, 0.2);
+}
+
+.Latest_Program .ladybossbcContent{
+    color: #DE3163;
+    text-align: center;
+    font-size: 30px;
+    font-family: Nunito;
+}
+
+.our_latest{
+    font-size: 25px;
+    font-family: Nunito;
+}
+
+.Donate_now{
+    background-color: rgba(120, 81, 169, 0.15);
+}
+
+.Donate_now .Donatebtn{
+    background-color: #DE3163;
+    border: none;
+    padding: 15px 35px;
+}
+
 
 

@@ -73,7 +73,7 @@ function Header() {
                         textDecoration: "none",
                       }}
                     >
-                      LadyBoss
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LadyBoss &nbsp;&nbsp;&nbsp;&nbsp;
                     </NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item className="eventList">
@@ -87,7 +87,7 @@ function Header() {
                         textDecoration: "none",
                       }}
                     >
-                      Youth
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Youth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item className="eventList">
@@ -101,7 +101,7 @@ function Header() {
                         textDecoration: "none",
                       }}
                     >
-                      Children
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Children &nbsp;&nbsp;&nbsp;&nbsp;
                     </NavLink>
                   </NavDropdown.Item>
                 </NavDropdown>
