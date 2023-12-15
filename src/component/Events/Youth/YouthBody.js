@@ -17,6 +17,8 @@ import Latest_1 from "../../../asset/Latest_1.png";
 import Latest_2 from "../../../asset/Latest_2.png";
 import Latest_3 from "../../../asset/Latest_3.png";
 import Latest_4 from "../../../asset/Latest_4.png";
+// import FollowIG from "../../../asset/Follow_us_Ig.png";
+import FollowIG1 from "../../../asset/Follow_IG.png";
 
 function YouthBody() {
   return (
@@ -47,52 +49,57 @@ function YouthBody() {
       </div>
 
       <div className="Latest_Program">
-        <div className="container-fluid" >
-        <div className="row">
-          <div className="ladybossbcTitle d-flex flex-column align-items-center justify-content-center col-lg-5 col-md-5 col-12">
-            <p className="our_latest">Our Latest Program</p>
-            <h5 className="ladybossbcContent text-center">
-              “Being part of a supportive community is essential for personal growth. Our youth programs encourage community engagement through volunteer opportunities, extracurricular activities, and events that foster a sense of belonging. We believe in the power of community to inspire and uplift.”
-            </h5>
-          </div>
-          <div
-            className="col-lg-7 col-md-7 col-12 py-4"
-            style={{
-              background: "linear-gradient(to left, #DE3163 80%, rgba(222, 49, 99, 0.2) 20%)",
-            }}
-          >
-            <div className="row">
-              <div className="LadybossBCImg2 d-flex align-items-center justify-content-center col-lg-6 col-md-6 col-12">
-                <img
-                  src={Latest_1}
-                  className="img-fluid"
-                  alt="ladybossbcImg_1"
-                ></img>
-              </div>
-              <div className="LadybossBCImg1 d-flex align-items-center justify-content-center col-lg-6 col-md-6 col-12">
-                <img
-                  src={Latest_2}
-                  className="img-fluid"
-                  alt="ladybossbcImg_2"
-                ></img>
-              </div>
-              <div className="LadybossBCImg2 d-flex align-items-center justify-content-center col-lg-6 col-md-6 col-12 mt-3">
-                <img
-                  src={Latest_3}
-                  className="img-fluid"
-                  alt="ladybossbcImg_3"
-                ></img>
-              </div>
-              <div className="LadybossBCImg1 d-flex align-items-center justify-content-center col-lg-6 col-md-6 col-12 mt-3">
-                <img
-                  src={Latest_4}
-                  className="img-fluid"
-                  alt="ladybossbcImg_4"
-                ></img>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="ladybossbcTitle d-flex flex-column align-items-center justify-content-center col-lg-5 col-md-5 col-12">
+              <p className="our_latest">Our Latest Program</p>
+              <h5 className="ladybossbcContent text-center">
+                “Being part of a supportive community is essential for personal
+                growth. Our youth programs encourage community engagement
+                through volunteer opportunities, extracurricular activities, and
+                events that foster a sense of belonging. We believe in the power
+                of community to inspire and uplift.”
+              </h5>
+            </div>
+            <div
+              className="col-lg-7 col-md-7 col-12 py-4"
+              style={{
+                background:
+                  "linear-gradient(to left, #DE3163 80%, rgba(222, 49, 99, 0.2) 20%)",
+              }}
+            >
+              <div className="row">
+                <div className="LadybossBCImg2 d-flex align-items-center justify-content-center col-lg-6 col-md-6 col-12">
+                  <img
+                    src={Latest_1}
+                    className="img-fluid"
+                    alt="ladybossbcImg_1"
+                  ></img>
+                </div>
+                <div className="LadybossBCImg1 d-flex align-items-center justify-content-center col-lg-6 col-md-6 col-12">
+                  <img
+                    src={Latest_2}
+                    className="img-fluid"
+                    alt="ladybossbcImg_2"
+                  ></img>
+                </div>
+                <div className="LadybossBCImg2 d-flex align-items-center justify-content-center col-lg-6 col-md-6 col-12 mt-3">
+                  <img
+                    src={Latest_3}
+                    className="img-fluid"
+                    alt="ladybossbcImg_3"
+                  ></img>
+                </div>
+                <div className="LadybossBCImg1 d-flex align-items-center justify-content-center col-lg-6 col-md-6 col-12 mt-3">
+                  <img
+                    src={Latest_4}
+                    className="img-fluid"
+                    alt="ladybossbcImg_4"
+                  ></img>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
 
@@ -187,31 +194,41 @@ function YouthBody() {
                 Muhammad Faisal."
               </h5>
             </div>
-            <div className="col-lg-6 col-md-6 col-12">
-              <video width="640" height="360" controls>
-                <source src={Football_Tournament} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+  <div class="embed-responsive embed-responsive-1by1">
+    <video class="embed-responsive-item" controls style={{width: '100%'}}>
+      <source src={Football_Tournament} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
           </div>
           <div className="row mt-4">
-            <div className="col-lg-4 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12">
               <img
                 src={Football_1}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-4 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12">
               <img
                 src={Football_2}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-4 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12">
               <img
                 src={Football_3}
+                className="img-fluid"
+                alt="pulau_ubin_trip"
+              ></img>
+            </div>
+            <div className="col-lg-3 col-md-3 col-12">
+              <img
+                src={FollowIG1}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
