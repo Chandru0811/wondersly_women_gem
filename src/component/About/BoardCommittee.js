@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import MrsMariaAbdullah from "../../asset/MrsMariaAbdullah.png";
 import CommonBoard from "../../asset/CommonBoard.png";
 import Ms_Helen_Loh from "../../asset/Ms_Helen_Loh.png";
@@ -6,7 +6,9 @@ import Rosnawati_Mohamed_Zain from "../../asset/Rosnawati_Mohamed_Zain.png";
 import Ms_Salyna from "../../asset/Ms_Salyna.png";
 import Mr_Leong_YH from "../../asset/Mr_Leong_YH.png";
 import Mr_Edwin_Koh from "../../asset/Mr_Edwin_Koh.png";
-import Mrs_Arin_Andi from "../../asset/Mrs_Arin_Andi.png";
+import Nur_Azlinda_Zulkifi from "../../asset/Nur_Azlinda_Zulkifi.png";
+import Mohammad_Hairi_Rohani from "../../asset/Mohammad_Hairi_Rohani.png";
+// import Mrs_Arin_Andi from "../../asset/Mrs_Arin_Andi.png";
 // import commonMen from "../../asset/commonMen.png";
 import Mr_Nagarajan from "../../asset/Mr_Nagarajan.png";
 // import { FaFacebook, FaInstagram, FaWhatsapp  } from "react-icons/fa";
@@ -20,11 +22,7 @@ function BoardCommittee() {
         <p className="ourBoardTeamText">Board Committee</p>
         <div className="row mb-5">
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
-            <img
-              src={CommonBoard}
-              className="img-fluid"
-              alt="Common_Board"
-            />
+            <img src={CommonBoard} className="img-fluid" alt="Common_Board" />
             <h5>Mdm Roszilah</h5>
             <p>Member</p>
             {/* <span >
@@ -82,7 +80,7 @@ function BoardCommittee() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+          {/* <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
               src={Mrs_Arin_Andi}
               className="img-fluid"
@@ -90,19 +88,16 @@ function BoardCommittee() {
             />
             <h5>Mrs Arin Andi</h5>
             <p>Board Committee Facilitator</p>
-            {/* <span >
+             <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
               <FaXTwitter style={{ marginRight: "10px"}}/>
               <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span> */}
-          </div>
+            </span> 
+          </div> */}
+
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
-            <img
-              src={Ms_Salyna}
-              className="img-fluid"
-              alt="Ms_Salyna"
-            />
+            <img src={Ms_Salyna} className="img-fluid" alt="Ms_Salyna" />
             <h5>Ms Salyna</h5>
             <p>Board Committee Secretary</p>
             {/* <span >
@@ -112,15 +107,27 @@ function BoardCommittee() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
-        </div>
- 
-        <div className="row">
+
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
-              src={Mr_Leong_YH}
+              src={Nur_Azlinda_Zulkifi}
               className="img-fluid"
-              alt="Mr_Leong_YH"
+              alt="Nur_Azlinda_Zulkifi"
             />
+            <h5>Nur Azlinda Zulkifi</h5>
+            <p>Anti Drugs Advocate</p>
+            {/* <span >
+              <FaInstagram style={{ marginRight: "10px"}}/>
+              <FaFacebook style={{ marginRight: "10px"}}/>
+              <FaXTwitter style={{ marginRight: "10px"}}/>
+              <FaWhatsapp style={{ marginRight: "10px"}}/>
+            </span> */}
+          </div>
+        </div>
+
+        <div className="row mb-5">
+          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+            <img src={Mr_Leong_YH} className="img-fluid" alt="Mr_Leong_YH" />
             <h5>Mr Leong YH</h5>
             <p>Board Committee Advisor</p>
             {/* <span >
@@ -130,12 +137,9 @@ function BoardCommittee() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
+
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
-            <img
-              src={Mr_Edwin_Koh}
-              className="img-fluid"
-              alt="Mr_Edwin_Koh"
-            />
+            <img src={Mr_Edwin_Koh} className="img-fluid" alt="Mr_Edwin_Koh" />
             <h5>Mr Edwin Koh</h5>
             <p>Board Committee Youth Advisor</p>
             {/* <span >
@@ -145,14 +149,58 @@ function BoardCommittee() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
-      
+
+          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+            <img src={Mr_Nagarajan} className="img-fluid" alt="Mr_Edwin_Koh" />
+            <h5>Mr Nagarajan</h5>
+            <p>Board Committee Director</p>
+            {/* <span >
+              <FaInstagram style={{ marginRight: "10px"}}/>
+              <FaFacebook style={{ marginRight: "10px"}}/>
+              <FaXTwitter style={{ marginRight: "10px"}}/>
+              <FaWhatsapp style={{ marginRight: "10px"}}/>
+            </span> */}
+          </div>
+        </div>
+
+        <div className="row">
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
-              src={Mr_Nagarajan}
+              src={Mohammad_Hairi_Rohani}
               className="img-fluid"
-              alt="Mr_Edwin_Koh"
+              alt="Mohammad_Hairi_Rohani"
             />
-            <h5>Mr Nagarajan VR</h5>
+            <h5>Mohammad Hairi Rohani</h5>
+            <p>Para Counsellor</p>
+            {/* <span >
+              <FaInstagram style={{ marginRight: "10px"}}/>
+              <FaFacebook style={{ marginRight: "10px"}}/>
+              <FaXTwitter style={{ marginRight: "10px"}}/>
+              <FaWhatsapp style={{ marginRight: "10px"}}/>
+            </span> */}
+          </div>
+
+          <div
+            className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
+            style={{ visibility: "hidden" }}
+          >
+            <img src={Mr_Edwin_Koh} className="img-fluid" alt="Mr_Edwin_Koh" />
+            <h5>Mr Edwin Koh</h5>
+            <p>Board Committee Youth Advisor</p>
+            {/* <span >
+              <FaInstagram style={{ marginRight: "10px"}}/>
+              <FaFacebook style={{ marginRight: "10px"}}/>
+              <FaXTwitter style={{ marginRight: "10px"}}/>
+              <FaWhatsapp style={{ marginRight: "10px"}}/>
+            </span> */}
+          </div>
+
+          <div
+            className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
+            style={{ visibility: "hidden" }}
+          >
+            <img src={Mr_Nagarajan} className="img-fluid" alt="Mr_Edwin_Koh" />
+            <h5>Mr Nagarajan</h5>
             <p>Board Committee Director</p>
             {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
@@ -164,7 +212,7 @@ function BoardCommittee() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default BoardCommittee
+export default BoardCommittee;
