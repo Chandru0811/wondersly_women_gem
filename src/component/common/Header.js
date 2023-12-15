@@ -8,7 +8,7 @@ import {
 } from "react-bootstrap";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, Link } from "react-router-dom";
 
 function Header() {
   const expand = "lg";
@@ -61,7 +61,9 @@ function Header() {
                 <NavDropdown
                   title="Events"
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  className={isActive("/events") ? "active active-events-title" : ""}
+                  className={
+                    isActive("/events") ? "active active-events-title" : ""
+                  }
                 >
                   <NavDropdown.Item className="eventList">
                     <NavLink
@@ -73,7 +75,8 @@ function Header() {
                         textDecoration: "none",
                       }}
                     >
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LadyBoss &nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LadyBoss
+                      &nbsp;&nbsp;&nbsp;&nbsp;
                     </NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item className="eventList">
@@ -87,7 +90,8 @@ function Header() {
                         textDecoration: "none",
                       }}
                     >
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Youth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Youth
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item className="eventList">
@@ -101,7 +105,8 @@ function Header() {
                         textDecoration: "none",
                       }}
                     >
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Children &nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Children
+                      &nbsp;&nbsp;&nbsp;&nbsp;
                     </NavLink>
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -133,8 +138,12 @@ function Header() {
                 </Nav.Link>
               </Nav>
               <Nav className="d-flex">
-                <button className="btn donateBtn">Donate</button>
-                <button className="btn volunteerBtn">Volunteer</button>
+                <Link to="/donate" onclick="scrollToTop()">
+                  <button className="btn donateBtn">Donate</button>
+                </Link>
+                <Link to="/contact" onclick="scrollToTop()">
+                  <button className="btn volunteerBtn">Volunteer</button>
+                </Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

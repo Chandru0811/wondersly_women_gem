@@ -1,6 +1,7 @@
 import React from "react";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import NonProfitableImg from "../../asset/NonProfitableImg.png";
+import { Link } from "react-router-dom";
 
 function NonProfitable() {
   return (
@@ -15,9 +16,7 @@ function NonProfitable() {
             ></img>
           </div>
           <div className="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-center">
-            <h1>
-              Givest is The Non Profitable Organization
-            </h1>
+            <h1>Givest is The Non Profitable Organization</h1>
             <p className="mt-3">
               Welcome to Wondrously Woman Gem, a compassionate haven for widows
               seeking support and empowerment. At our core, we believe in
@@ -34,9 +33,7 @@ function NonProfitable() {
                 </p>
               </div>
               <div className="col-lg-1 col-md-1 col-1">
-              <hr
-                className="dividedline border-bottom"
-              ></hr>
+                <hr className="dividedline border-bottom"></hr>
               </div>
               <div className="col-lg-6 col-md-6 col-11">
                 <p className="mt-1">
@@ -44,7 +41,16 @@ function NonProfitable() {
                 </p>
               </div>
             </div>
-            <button type="button" className="Donatebtn btn btn-primary my-3" style={{ width: '200px' }}>Donate Now&nbsp;<MdOutlineArrowForwardIos /></button>
+            <Link to="/donate" onclick="scrollToTop()">
+              <button
+                type="button"
+                className="Donatebtn btn btn-primary my-3"
+                style={{ width: "200px" }}
+              >
+                Donate Now&nbsp;
+                <MdOutlineArrowForwardIos />
+              </button>
+            </Link>
           </div>
         </div>
       </div>

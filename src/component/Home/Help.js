@@ -18,9 +18,9 @@ function Help() {
                   You can contribute your time, skills and knowledge through
                   volunteering with the UN.
                 </p>
-                <button type="button" className="Readbtn btn btn-primary mb-2">
+                {/* <button type="button" className="Readbtn btn btn-primary mb-2">
                   Read More
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -34,9 +34,9 @@ function Help() {
                   You can contribute your time, skills and knowledge through
                   volunteering with the UN.
                 </p>
-                <button type="button" className="Readbtn btn btn-primary mb-2">
+                {/* <button type="button" className="Readbtn btn btn-primary mb-2">
                   Read More
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -50,9 +50,9 @@ function Help() {
                   You can contribute your time, skills and knowledge through
                   volunteering with the UN.
                 </p>
-                <button type="button" className="Readbtn btn btn-primary mb-2">
+                {/* <button type="button" className="Readbtn btn btn-primary mb-2">
                   Read More
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

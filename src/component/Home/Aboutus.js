@@ -1,5 +1,6 @@
 import React from "react";
 import aboutUs from "../../asset/aboutUs.png";
+import { Link } from "react-router-dom";
 
 function Aboutus() {
   return (
@@ -35,7 +36,9 @@ function Aboutus() {
               services namely for single-moms & women family center, youth club
               and special needs children foundation.
             </p>
+            <Link to="/about">
             <button className="my-button">Learn More</button>
+            </Link>
           </div>
         </div>
       </div>

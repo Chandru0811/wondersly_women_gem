@@ -8,7 +8,7 @@ function OurEvents() {
     <section className="Eventlist">
       <div className="container py-2">
         <span className="d-flex align-items-center justify-content-center">
-          <span className="ourEvents">Upcomming Events &nbsp;&nbsp;</span>
+          <span className="ourEvents">Upcoming Events &nbsp;&nbsp;</span>
           <span style={{ width: "80%" }}>
             <hr />
           </span>

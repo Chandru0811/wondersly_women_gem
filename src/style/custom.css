@@ -133,7 +133,7 @@ nav .nav-link Link {
     color: #fff !important;
 }
 
-  .navbar .nav-link.actives {
+.navbar .nav-link.actives {
     color: #fff !important;
 }
 
@@ -142,7 +142,7 @@ nav .nav-link Link {
 
 
 nav .eventList:hover {
-    color: #fff; 
+    color: #fff;
     background-color: #b404362c;
 }
 
@@ -442,7 +442,7 @@ nav .eventList:hover {
     .BoardCommitteehide {
         display: none !important;
     }
-  }
+}
 
 
 /* Home  */
@@ -617,7 +617,6 @@ nav .eventList:hover {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
     text-transform: capitalize;
     margin-top: 15px;
 }
@@ -1109,7 +1108,7 @@ input[type="range"] {
 
 /* Lady Boss BC Team  */
 
-.ladybossbcTeam{
+.ladybossbcTeam {
     background-color: rgba(222, 49, 99, 0.2);
 }
 
@@ -1117,49 +1116,91 @@ input[type="range"] {
 
 /* Youth Body  */
 
-.tripcontent{
+.tripcontent {
     background-color: rgba(120, 81, 169, 0.15);
 }
 
 .custom-justify-content-end {
     justify-content: flex-end;
-  }
+}
 
-.tournament{
+.tournament {
     background-color: rgba(227, 107, 134, 0.2);
 }
 
-.Futsal{
+.Futsal {
     color: #DE3163;
     font-size: 33px;
     font-family: Roboto;
 }
 
-.Latest_Program .ladybossbcTitle{
+.Latest_Program .ladybossbcTitle {
     background-color: rgba(222, 49, 99, 0.2);
 }
 
-.Latest_Program .ladybossbcContent{
+.Latest_Program .ladybossbcContent {
     color: #DE3163;
     text-align: center;
     font-size: 30px;
     font-family: Nunito;
 }
 
-.our_latest{
+.our_latest {
     font-size: 25px;
     font-family: Nunito;
 }
 
-.Donate_now{
+.Donate_now {
     background-color: rgba(120, 81, 169, 0.15);
 }
 
-.Donate_now .Donatebtn{
+.Donate_now .Donatebtn {
     background-color: #DE3163;
     border: none;
     padding: 15px 35px;
 }
 
+/* Donate  */
 
+/* Big Heart  */
 
+.bigHeart .Open {
+    color: #22495F;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bigHeart .bigheart_heading {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.bigHeart .bigheart_content{
+        color: #444;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: capitalize;
+        margin-top: 15px;
+}
+
+.bigHeart .bigheart_quotes{
+    color: #DE3163;
+    text-align: center;
+    font-size: 20px;
+    font-family: Playfair Display;
+}
+
+.bigHeart{
+    background-color: rgba(222, 49, 99, 0.2);;
+}

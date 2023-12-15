@@ -8,6 +8,7 @@ import OurBoard from "../component/About/OurBoard";
 import BoardCommittee from "../component/About/BoardCommittee";
 import Services from "../component/About/Services";
 import Testimonial from "../component/About/Testimonial";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -29,8 +30,12 @@ function About() {
                   future.
                 </p>
                 <span className="d-flex">
-                  <button className="btn donateBtn">Donate</button>
-                  <button className="btn volunteerBtn">Volunteer</button>
+                  <Link to="/donate">
+                    <button className="btn donateBtn">Donate</button>
+                  </Link>
+                  <Link to="/contact">
+                    <button className="btn volunteerBtn">Volunteer</button>
+                  </Link>
                 </span>
               </div>
             </div>

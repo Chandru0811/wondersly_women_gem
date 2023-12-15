@@ -11,6 +11,7 @@ import Page404 from "./component/common/404";
 import Youth from "./pages/Events/Youth";
 import LadyBoss from "./pages/Events/LadyBoss";
 import Child from "./pages/Events/Children";
+import Donate from "./pages/Donate";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/events/ladyboss" element={<LadyBoss />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
         <Footer />

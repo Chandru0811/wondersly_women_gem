@@ -30,7 +30,7 @@ function WWGAbout() {
               services namely for single-moms & women family center, youth club
               and special needs children foundation.
             </p>
-            <button className="my-button">Learn More</button>
+            {/* <button className="my-button">Learn More</button> */}
           </div>
           <div className="col-lg-6 col-md-6 col-12">
             <img src={CharityImg} alt="aboutImage" className="img-fluid" />

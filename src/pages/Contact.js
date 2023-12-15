@@ -50,10 +50,10 @@ function Contact() {
                 <b>Let's talk! </b>
               </h5>
               <div className="row">
-                <div className="paragraph_word col-lg-3 col-12">
-                  <p>82696181</p>
+                <div className="paragraph_word col-lg-4 col-12">
+                  <p>+65 82696181</p>
                 </div>
-                <div className="paragraph_word col-lg-9 col-12">
+                <div className="paragraph_word col-lg-8 col-12">
                   <p>
                     wwgem2015@gmail.com<br></br>hbbsgwwgem@gmail.com
                   </p>
