@@ -3,6 +3,10 @@ import React from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 function OurEvents() {
   return (
     <section className="Eventlist">
@@ -15,7 +19,7 @@ function OurEvents() {
         </span>
         <div className="row mt-5 mb-3">
           <div className="col-lg-6 col-md-6 col-12">
-            <Link to="/events/youth" style={{ textDecoration: 'none' }}>
+            <Link to="/events/youth" style={{ textDecoration: 'none' }} onClick={handleClick}>
               <span
                 className="goalVision h-100 d-flex align-items-center mb-3"
                 style={{ backgroundColor: "rgba(120, 81, 169, 0.30)" }}

@@ -2,6 +2,10 @@ import React from "react";
 import HeroImg from "../../asset/Hero_Img.png";
 import { Link } from "react-router-dom";
 
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 function Hero() {
   return (
     <div className="Hero">
@@ -21,7 +25,7 @@ function Hero() {
               that not even she could hold herself back because her passion
               burned brighter than her fears.
             </p>
-            <Link to="/about">
+            <Link to="/about" onClick={handleClick}>
             <button className="herobtn">Know About Us</button>
             </Link>
             

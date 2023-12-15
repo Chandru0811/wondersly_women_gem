@@ -18,6 +18,10 @@ function Header() {
     return location.pathname.includes(path);
   };
 
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <>
       <Navbar expand={expand} className="bg-body-tertiary header">
@@ -46,7 +50,7 @@ function Header() {
               <Nav className="justify-content-center flex-grow-1 pe-3">
                 <Nav.Link>
                   <NavLink
-                    to="/"
+                    to="/" onClick={handleClick}
                     exact
                     activeClassName="actives"
                     style={{
@@ -67,7 +71,7 @@ function Header() {
                 >
                   <NavDropdown.Item className="eventList">
                     <NavLink
-                      to="/events/ladyboss"
+                      to="/events/ladyboss" onClick={handleClick}
                       exact
                       activeClassName="actives"
                       style={{
@@ -81,7 +85,7 @@ function Header() {
                   </NavDropdown.Item>
                   <NavDropdown.Item className="eventList">
                     <NavLink
-                      to="/events/youth"
+                      to="/events/youth" onClick={handleClick}
                       exact
                       activeClassName="actives"
                       style={{
@@ -96,7 +100,7 @@ function Header() {
                   </NavDropdown.Item>
                   <NavDropdown.Item className="eventList">
                     <NavLink
-                      to="/events/child"
+                      to="/events/child" onClick={handleClick}
                       exact
                       activeClassName="actives"
                       style={{
@@ -113,7 +117,7 @@ function Header() {
 
                 <Nav.Link>
                   <NavLink
-                    to="/about"
+                    to="/about" onClick={handleClick}
                     activeClassName="active"
                     style={{
                       color: "rgba(0, 0, 0, 0.85)",
@@ -126,7 +130,7 @@ function Header() {
 
                 <Nav.Link>
                   <NavLink
-                    to="/contact"
+                    to="/contact" onClick={handleClick}
                     activeClassName="active"
                     style={{
                       color: "rgba(0, 0, 0, 0.85)",

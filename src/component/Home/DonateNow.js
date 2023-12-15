@@ -2,6 +2,10 @@ import React from "react";
 import Donate_now from "../../asset/Donate_now.png";
 import { Link } from "react-router-dom";
 
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 function DonateNow() {
   return (
     <section className="Donate_now py-4">
@@ -24,7 +28,7 @@ function DonateNow() {
               complexities of life. These incredible women embody strength,
               resilience, and determination, but they can't do it alone.
             </p>
-            <Link to="/donate">
+            <Link to="/donate" onClick={handleClick}>
               <button
                 type="button"
                 className="Donatebtn btn btn-danger my-3"
