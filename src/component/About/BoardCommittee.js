@@ -181,7 +181,7 @@ function BoardCommittee() {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
+            className="BoardCommitteehide col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
             style={{ visibility: "hidden" }}
           >
             <img src={Mr_Edwin_Koh} className="img-fluid" alt="Mr_Edwin_Koh" />
@@ -196,7 +196,7 @@ function BoardCommittee() {
           </div>
 
           <div
-            className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
+            className="BoardCommitteehide col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
             style={{ visibility: "hidden" }}
           >
             <img src={Mr_Nagarajan} className="img-fluid" alt="Mr_Edwin_Koh" />
