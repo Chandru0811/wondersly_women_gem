@@ -104,6 +104,54 @@ nav .nav-link Link {
     color: #fff;
 }
 
+/* Volunteer Page  */
+
+/* Form  */
+
+.volunteerForm {
+    /* background-color: #7851A926; */
+    background: linear-gradient(to right, #fff 10%, #7851a926 90%);
+}
+
+.volunteerForm .volunteerFormTitle {
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: #22495F;
+    font-weight: 500;
+}
+
+.volunteerForm .volunteersubmitBtn {
+    background-color: #de3163;
+    padding: 5px 30px;
+}
+
+.volunteerForm .volunteersubmitBtn:hover {
+    background-color: #c90a40;
+    padding: 5px 30px;
+}
+
+.volunteerForm .volunteerform_Embrace {
+    font-family: 'Roboto', sans-serif;
+    color: #1d2130c4;
+}
+
+
+.volunteerForm .volunteerform_Line {
+    border-color: rgb(34, 73, 95);
+}
+
+.volunteerForm input::placeholder,
+.volunteerForm textarea::placeholder {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #999;
+}
+
+.radio_content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #1d2130c4;
+}
 
 
 .active {
@@ -206,6 +254,21 @@ nav .eventList:hover {
     line-height: 130%;
 }
 
+/* Back To Top  */
+
+.backtoTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: #DE3163; */
+    background-color: #fff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
 /* Error Page  */
 
 .errorPage .gotoBtn {
@@ -255,10 +318,46 @@ nav .eventList:hover {
     cursor: pointer;
 }
 
-.contact_us .volunteer {
-    background-color: rgba(120, 81, 169, 0.1);
+
+/* Form  */
+
+.contactForm {
+    background-color: rgb(120, 81, 169, 15%);
+    ;
 }
 
+.contactForm .ContactFormTitle {
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: #22495F;
+    font-weight: 500;
+}
+
+.contactForm .contactsubmitBtn {
+    background-color: #de3163;
+    padding: 5px 30px;
+}
+
+.contactForm .contactsubmitBtn:hover {
+    background-color: #c90a40;
+    padding: 5px 30px;
+}
+
+.contactForm .contactform_Empathy {
+    font-family: 'Roboto', sans-serif;
+    color: #1d2130c4;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #999;
+}
+
+.contactForm .contactform_Line {
+    border-color: rgb(34, 73, 95);
+}
 
 
 /* About  */
@@ -1183,24 +1282,25 @@ input[type="range"] {
     text-transform: capitalize;
 }
 
-.bigHeart .bigheart_content{
-        color: #444;
-        font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 26px;
-        text-transform: capitalize;
-        margin-top: 15px;
+.bigHeart .bigheart_content {
+    color: #444;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-top: 15px;
 }
 
-.bigHeart .bigheart_quotes{
+.bigHeart .bigheart_quotes {
     color: #DE3163;
     text-align: center;
     font-size: 20px;
     font-family: Playfair Display;
 }
 
-.bigHeart{
-    background-color: rgba(222, 49, 99, 0.2);;
+.bigHeart {
+    background-color: rgba(222, 49, 99, 0.2);
+    ;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "../src/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 import Header from "./component/common/Header";
 import About from "./pages/About";
 import Topbar from "./component/common/Topbar";
@@ -12,6 +13,7 @@ import Youth from "./pages/Events/Youth";
 import LadyBoss from "./pages/Events/LadyBoss";
 import Child from "./pages/Events/Children";
 import Donate from "./pages/Donate";
+import Volunteer from "./pages/Volunteer";
 
 function App() {
   return (
@@ -27,8 +29,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path="/volunteer" element={<Volunteer />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
+        <ScrollToTop className="backtoTop" />
         <Footer />
       </BrowserRouter>
     </>

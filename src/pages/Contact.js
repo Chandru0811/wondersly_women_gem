@@ -5,6 +5,7 @@ import member_1 from "../asset/member_1.jpg";
 import member_2 from "../asset/member_2.jpg";
 import member_3 from "../asset/member_3.jpg";
 import Volunterr from "../component/common/Volunterr";
+import ContactForm from "../component/common/ContactForm";
 
 function Contact() {
   return (
@@ -160,6 +161,7 @@ function Contact() {
       </div>
       <div className="volunteer">
         <Volunterr />
+        <ContactForm />
       </div>
     </section>
   );

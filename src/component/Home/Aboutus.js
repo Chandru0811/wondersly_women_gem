@@ -2,6 +2,10 @@ import React from "react";
 import aboutUs from "../../asset/aboutUs.png";
 import { Link } from "react-router-dom";
 
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 function Aboutus() {
   return (
     <div className="Aboutus">
@@ -36,7 +40,7 @@ function Aboutus() {
               services namely for single-moms & women family center, youth club
               and special needs children foundation.
             </p>
-            <Link to="/about">
+            <Link to="/about" onClick={handleClick}>
             <button className="my-button">Learn More</button>
             </Link>
           </div>

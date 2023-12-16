@@ -10,6 +10,10 @@ import Services from "../component/About/Services";
 import Testimonial from "../component/About/Testimonial";
 import { Link } from "react-router-dom";
 
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 function About() {
   return (
     <section style={{ marginTop: "118px" }}>
@@ -30,10 +34,10 @@ function About() {
                   future.
                 </p>
                 <span className="d-flex">
-                  <Link to="/donate">
+                  <Link to="/donate" onClick={handleClick}>
                     <button className="btn donateBtn">Donate</button>
                   </Link>
-                  <Link to="/contact">
+                  <Link to="/contact" onClick={handleClick}>
                     <button className="btn volunteerBtn">Volunteer</button>
                   </Link>
                 </span>

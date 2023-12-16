@@ -3,6 +3,10 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 import NonProfitableImg from "../../asset/NonProfitableImg.png";
 import { Link } from "react-router-dom";
 
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 function NonProfitable() {
   return (
     <div className="NonProfitable py-3">
@@ -41,7 +45,7 @@ function NonProfitable() {
                 </p>
               </div>
             </div>
-            <Link to="/donate" onclick="scrollToTop()">
+            <Link to="/donate" onClick={handleClick}>
               <button
                 type="button"
                 className="Donatebtn btn btn-primary my-3"

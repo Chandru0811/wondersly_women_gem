@@ -142,10 +142,10 @@ function Header() {
                 </Nav.Link>
               </Nav>
               <Nav className="d-flex">
-                <Link to="/donate" onclick="scrollToTop()">
+                <Link to="/donate" onClick={handleClick}>
                   <button className="btn donateBtn">Donate</button>
                 </Link>
-                <Link to="/contact" onclick="scrollToTop()">
+                <Link to="/volunteer" onClick={handleClick}>
                   <button className="btn volunteerBtn">Volunteer</button>
                 </Link>
               </Nav>
