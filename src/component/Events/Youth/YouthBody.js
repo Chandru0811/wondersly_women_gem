@@ -109,21 +109,21 @@ function YouthBody() {
             <p className="ourBoardTeam">Trip</p>
             <p className="ourBoardTeamText mb-4">Pulau Ubin Adventure</p>
             <div className="col-lg-1 col-md-1 col-1"></div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_1}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_2}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_3}
                 className="img-fluid"
@@ -132,22 +132,22 @@ function YouthBody() {
             </div>
             <div className="col-lg-1 col-md-1"></div>
           </div>
-          <div className="row my-4 ">
-            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center">
+          <div className="row my-2 ">
+            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_4}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center">
+            <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_5}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-3 col-md-3 col-3 d-flex align-items-center justify-content-center">
+            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_6}
                 className="img-fluid"
@@ -157,21 +157,21 @@ function YouthBody() {
           </div>
           <div className="row">
             <div className="col-lg-1 col-md-1 col-1"></div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_1}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_2}
                 className="img-fluid"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center mb-2">
               <img
                 src={Pulau_Ubin_Trip_3}
                 className="img-fluid"
@@ -186,8 +186,8 @@ function YouthBody() {
       <div className="tournament container-fluid py-4">
         <div className="container">
           <div className="row">
-            <p className="ourBoardTeam">Trip</p>
-            <p className="ourBoardTeamText mb-4">Pulau Ubin Adventure</p>
+            <p className="ourBoardTeam">Tournament</p>
+            <p className="ourBoardTeamText mb-4">Futsal Friendly</p>
             <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center">
               <h5 className="Futsal text-center">
                 "Futsal friendly match at Yishun in March 2023. Embraced by Prof
@@ -195,14 +195,17 @@ function YouthBody() {
               </h5>
             </div>
             <div class="col-lg-6 col-md-6 col-12">
-  <div class="embed-responsive embed-responsive-1by1">
-    <video class="embed-responsive-item" controls style={{width: '100%'}}>
-      <source src={Football_Tournament} type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-
+              <div class="embed-responsive embed-responsive-1by1">
+                <video
+                  class="embed-responsive-item"
+                  controls
+                  style={{ width: "100%" }}
+                >
+                  <source src={Football_Tournament} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
           </div>
           <div className="row mt-4">
             <div className="col-lg-3 col-md-3 col-12">

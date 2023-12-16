@@ -256,17 +256,17 @@ nav .eventList:hover {
 
 /* Back To Top  */
 
-.backtoTop {
+/* .backtoTop {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 20px; */
     /* background-color: #DE3163; */
-    background-color: #fff;
+    /* background-color: #fff;
     color: #fff;
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
-}
+} */
 
 
 /* Error Page  */

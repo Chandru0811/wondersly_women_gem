@@ -1,7 +1,7 @@
 import React from "react";
 import "../src/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ScrollToTop from "react-scroll-to-top";
+// import ScrollToTop from "react-scroll-to-top";
 import Header from "./component/common/Header";
 import About from "./pages/About";
 import Topbar from "./component/common/Topbar";
@@ -32,7 +32,7 @@ function App() {
           <Route path="/volunteer" element={<Volunteer />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
-        <ScrollToTop className="backtoTop" />
+        {/* <ScrollToTop className="backtoTop" /> */}
         <Footer />
       </BrowserRouter>
     </>
