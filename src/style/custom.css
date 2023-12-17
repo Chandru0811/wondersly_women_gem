@@ -637,6 +637,12 @@ nav .eventList:hover {
     padding: 15px 35px;
 }
 
+.NonProfitable .Donatebtn:hover {
+    background-color: #a30733;
+    border: none;
+    padding: 15px 35px;
+}
+
 /* Supporters  */
 
 .Supporters {
@@ -1230,7 +1236,7 @@ input[type="range"] {
 .Futsal {
     color: #DE3163;
     font-size: 33px;
-    font-family: Roboto;
+    font-family: Nunito;
 }
 
 .Latest_Program .ladybossbcTitle {
@@ -1254,6 +1260,12 @@ input[type="range"] {
 }
 
 .Donate_now .Donatebtn {
+    background-color: #DE3163;
+    border: none;
+    padding: 15px 35px;
+}
+
+.Donate_now .Donatebtn:hover {
     background-color: #DE3163;
     border: none;
     padding: 15px 35px;
