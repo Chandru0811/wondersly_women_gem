@@ -7,11 +7,13 @@ function Services() {
   return (
     <section className="Services py-5">
       <div className="container d-flex flex-column align-items-center justify-content-center">
+      <div data-aos="fade-up">
         <p className="ourBoardTeam">Our</p>
         <p className="ourBoardTeamText pb-5">Services</p>
+        </div>
 
         <div class="row ">
-          <div class="col-lg-4 col-md-4 col-12 d-flex mb-3">
+          <div data-aos="fade-down" class="col-lg-4 col-md-4 col-12 d-flex mb-3">
             <div className="card" style={{ width: "19rem" }}>
               <div class="serviceCard flex-fill d-flex flex-column align-items-center justify-content-center p-2">
                 <img src={Logo} class="img-fluid" alt="Logo" />
@@ -27,7 +29,7 @@ function Services() {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-4 col-12 d-flex mb-3">
+          <div data-aos="fade-down" class="col-lg-4 col-md-4 col-12 d-flex mb-3">
             <div className="card" style={{ width: "19rem" }}>
               <div class="serviceCard flex-fill d-flex flex-column align-items-center justify-content-center p-2">
                 <img src={Serviceimg_2} class="img-fluid mb-2" alt="Logo" />
@@ -43,7 +45,7 @@ function Services() {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-4 col-12 d-flex mb-3">
+          <div data-aos="fade-down" class="col-lg-4 col-md-4 col-12 d-flex mb-3">
             <div className="card" style={{ width: "19rem" }}>
               <div class="serviceCard flex-fill d-flex flex-column align-items-center p-2">
                 <img src={Serviceimg_3} class="img-fluid my-3" alt="Logo" />

@@ -5,12 +5,12 @@ function History() {
   return (
     <section>
       <div className="container my-5">
-        <div className="row">
+        <div data-aos="fade-up" className="row">
           <div className="col-lg-1">
             <hr className="aboutHr"></hr>
           </div>
           <div className="col-lg-10 col-md-10 col-12 pt-1">
-            <span className="aboutName">HERSTORY</span>
+            <span className="aboutName">HER STORY</span>
             <h2 className="historyMission mt-3 mb-5">
               Mission Smile 1k: Outdoor charity outreach
             </h2>

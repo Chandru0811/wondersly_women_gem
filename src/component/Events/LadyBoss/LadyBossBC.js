@@ -9,7 +9,7 @@ function LadyBossBC() {
     <section className="ladybossBC">
       <div className="container-fluid">
         <div className="row">
-          <div className="ladybossbcTitle d-flex flex-column align-items-center justify-content-center col-lg-5 col-md-5 col-12">
+          <div  className="ladybossbcTitle d-flex flex-column align-items-center justify-content-center col-lg-5 col-md-5 col-12">
             <p>LadyBoss Business Connect</p>
             <h5 className="ladybossbcContent">
               “Everyone has a passion but some do not understand how it can be

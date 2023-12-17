@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../src/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import ScrollToTop from "react-scroll-to-top";
@@ -14,8 +14,19 @@ import LadyBoss from "./pages/Events/LadyBoss";
 import Child from "./pages/Events/Children";
 import Donate from "./pages/Donate";
 import Volunteer from "./pages/Volunteer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      easing: "ease-in-out",
+    });
+  }, []);
+
+
+
   return (
     <>
       <BrowserRouter basename="/wwg">

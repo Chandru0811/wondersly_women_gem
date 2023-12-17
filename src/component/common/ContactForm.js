@@ -3,7 +3,7 @@ import ContactFormPhoto from "../../asset/Contact_Form_Img.png";
 
 function ContactForm() {
   return (
-    <section className="contactForm">
+    <section className="contactForm" id="contact_form">
       <div className="container py-4">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-center">
@@ -39,7 +39,7 @@ function ContactForm() {
                   placeholder="Message*"
                 />
               </div>
-              <button className="contactsubmitBtn btn btn-danger mt-3">Submit </button>
+              <button className="contactsubmitBtn btn btn-danger mt-3" type="button">Submit </button>
             </form>
           </div>
           <div className="col-lg-6 col-md-6 col-12 mt-3">

@@ -6,7 +6,7 @@ function WWGAbout() {
     <section>
       <div className="container my-4">
         <div className="row my-5">
-          <div className="col-lg-6 col-md-6 col-12">
+          <div data-aos="fade-up" className="col-lg-6 col-md-6 col-12">
             <span className="d-flex align-items-center ">
               <span>
                 <hr className="aboutHr" />
@@ -32,7 +32,7 @@ function WWGAbout() {
             </p>
             {/* <button className="my-button">Learn More</button> */}
           </div>
-          <div className="col-lg-6 col-md-6 col-12">
+          <div data-aos="fade-down" className="col-lg-6 col-md-6 col-12">
             <img src={CharityImg} alt="aboutImage" className="img-fluid" />
           </div>
         </div>

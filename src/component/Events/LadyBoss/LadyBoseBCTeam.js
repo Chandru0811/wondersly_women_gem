@@ -7,10 +7,15 @@ function LadyBoseBCTeam() {
   return (
     <section className="ladybossbcTeam">
       <div className="container d-flex flex-column align-items-center justify-content-center py-4">
-        <p className="ourBoardTeam">Team</p>
-        <p className="ourBoardTeamText">LADYBOSS BC TEAM</p>
+        <div data-aos="fade-up">
+          <p className="ourBoardTeam">Team</p>
+          <p className="ourBoardTeamText">LADYBOSS BC TEAM</p>
+        </div>
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+          <div
+            data-aos="fade-down"
+            className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
+          >
             <img
               src={Mdm_Anggun_A}
               className="img-fluid"
@@ -25,7 +30,10 @@ function LadyBoseBCTeam() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+          <div
+            data-aos="fade-down"
+            className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
+          >
             <img
               src={Mohammed_Nasir}
               className="img-fluid"
@@ -40,7 +48,10 @@ function LadyBoseBCTeam() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+          <div
+            data-aos="fade-down"
+            className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
+          >
             <img
               src={Ms_Salyna}
               className="img-fluid"

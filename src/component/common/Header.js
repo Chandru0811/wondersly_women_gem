@@ -27,6 +27,7 @@ function Header() {
       <Navbar expand={expand} className="bg-body-tertiary header">
         <Container fluid>
           <Navbar.Brand href="#">
+            <Link to='/' onClick={handleClick}>
             <img
               src={Logo}
               alt="WWG"
@@ -34,6 +35,7 @@ function Header() {
               width={80}
               height={80}
             />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas

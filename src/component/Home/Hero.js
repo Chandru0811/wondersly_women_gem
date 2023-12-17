@@ -11,7 +11,7 @@ function Hero() {
     <div className="Hero">
       <div className="container py-3">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center">
+          <div data-aos="fade-up" className="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center">
             <h1 className="HeroHeading">
               <b>
                 BEHIND EVERY SUCCESSFUL WOMAN IS A TRIBE OF OTHER SUCCESSFUL
@@ -30,7 +30,7 @@ function Hero() {
             </Link>
             
           </div>
-          <div className="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center align-items-center">
+          <div data-aos="fade-down" className="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center align-items-center">
             <img src={HeroImg} className="img-fluid" alt="Hero_Img"></img>
           </div>
         </div>

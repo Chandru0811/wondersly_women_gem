@@ -6,12 +6,17 @@ function VolunteerForm() {
     <section className="volunteerForm">
       <div className="container py-3">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center">
+          <div className="col-lg-6 col-md-6 col-12 d-flex flex-column align-items-center">
+          {/* <h2 className="volunteerform_Heart">
+              "Volunteers do not necessarily have the time, they just have the
+              heart."
+            </h2> */}
             <img
               src={VolunteerFormImg}
               className="img-fluid"
               alt="VolunteerForm_Img"
             />
+            
           </div>
           <div className="col-lg-6 col-md-6 col-12">
             <h2 className="volunteerFormTitle">Join Our Team!</h2>
@@ -70,7 +75,10 @@ function VolunteerForm() {
                 />
               </div>
 
-              <button className="volunteersubmitBtn btn btn-danger mt-3">
+              <button
+                className="volunteersubmitBtn btn btn-danger mt-3"
+                type="button"
+              >
                 Submit
               </button>
             </form>

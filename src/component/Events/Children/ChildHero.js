@@ -4,7 +4,7 @@ import "../../../style/events.css";
 function ChildHero() {
   return (
     <section className="ChildrenHero py-5">
-      <div className="container">
+      <div data-aos="fade-up" className="container">
         <h2 className="youthEvents">Events</h2>
         <hr className="youthHr" />
         <p className="youthEventsPara">

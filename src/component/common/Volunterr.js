@@ -1,5 +1,10 @@
 import React from "react";
 import Qr_Code from "../../asset/Qr_Code.png";
+import { Link } from "react-router-dom";
+
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth'});
+};
 
 function Volunteer() {
   return (
@@ -14,12 +19,16 @@ function Volunteer() {
           </div>
           <div className="col-lg-6 col-12">
             <p style={{ marginTop: "5px" }}>
-              <b className="heading_word"
-                  style={{
-                    fontSize: "13px",
-                    letterSpacing: "1px",
-                    marginTop: "100px",
-                  }}>BE A VOLUNTEER</b>
+              <b
+                className="heading_word"
+                style={{
+                  fontSize: "13px",
+                  letterSpacing: "1px",
+                  marginTop: "100px",
+                }}
+              >
+                BE A VOLUNTEER
+              </b>
             </p>
             <p style={{ fontSize: "30px", color: "#2E4049" }}>
               <b>Become a Member and Empower Single Moms: Join Our Cause!</b>
@@ -31,7 +40,9 @@ function Volunteer() {
               the challenges of parenthood solo. These incredible women
               demonstrate resilience, determination, and love every day.
             </p>
-            <button className="my-button mt-3">Volunteer Now</button>
+            <Link to="/volunteer" onClick={handleClick}>
+              <button className="my-button mt-3">Volunteer Now</button>
+            </Link>
           </div>
           <div className="col-lg-2 col-12"></div>
           <div className="col-lg-3 col-12">

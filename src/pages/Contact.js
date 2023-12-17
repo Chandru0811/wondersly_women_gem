@@ -6,10 +6,15 @@ import member_2 from "../asset/member_2.jpg";
 import member_3 from "../asset/member_3.jpg";
 import Volunterr from "../component/common/Volunterr";
 import ContactForm from "../component/common/ContactForm";
+import { Link } from "react-router-dom";
+
+const handleClick = () => {
+  window.scrollTo({ top: 2080, behavior: "smooth" });
+};
 
 function Contact() {
   return (
-    <section className="contact_us" style={{ marginTop: '118px' }}>
+    <section className="contact_us" style={{ marginTop: "118px" }}>
       <div className="address">
         <div className="container">
           <div className="row" style={{ padding: "100px 0px" }}>
@@ -111,7 +116,9 @@ function Contact() {
                 The Associate Membership is open to all regardless of race,
                 religion or gender. Opportunity for activities.
               </p>
-              <button className="my-button">Learn More</button>
+              <Link to="/contact" onClick={handleClick}>
+                <button className="my-button">Learn More</button>
+              </Link>
             </div>
           </div>
           <div className="row mt-5">
@@ -129,7 +136,9 @@ function Contact() {
                 the activities of WWGEM and use the facilities of the
                 organisation.
               </p>
-              <button className="my-button">Learn More</button>
+              <Link to="/contact" onClick={handleClick}>
+                <button className="my-button">Learn More</button>
+              </Link>
             </div>
             <div className="col-lg-5 col-12 order-md-1 order-lg-2 order-1">
               <img className="img-fluid" src={member_2} alt="member img 2" />
@@ -154,7 +163,9 @@ function Contact() {
                 organisation. Have more opportunities to WWGEM events,
                 activities and connections.
               </p>
-              <button className="my-button">Learn More</button>
+              <Link to="/contact" onClick={handleClick}>
+                <button className="my-button">Learn More</button>
+              </Link>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ function Footer() {
     <div className="d-flex flex-column align-items-center footerSection py-5">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-3 col-12 mb-3 d-flex flex-column justify-content-center">
+          <div className="col-lg-4 col-md-4 col-12 mb-3 d-flex flex-column justify-content-center">
             <img
               src={Logo}
               alt="WWG"
@@ -29,7 +29,7 @@ function Footer() {
               <FaWhatsapp  className="footerIcon" />
             </span>
           </div>
-          <div className="col-lg-8 col-md-3 col-12">
+          <div className="col-lg-8 col-md-9 col-12">
             <div className="row footerRow">
               <div className="col-lg-3 col-md-3 col-12">
                 <p className="footerHeading mt-3">Get Involved</p>
@@ -53,7 +53,7 @@ function Footer() {
                   <span className="footerContent">Changelog</span>
                 </span>
               </div>
-              <div className="col-lg-6 col-md-6 col-12">
+              <div className="col-lg-6 col-md-4 col-12">
                 <p className="footerHeading mt-3">Contact</p>
                 <hr />
                 <span className="d-flex flex-column">

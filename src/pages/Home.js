@@ -11,6 +11,7 @@ import Testimonial from "../component/About/Testimonial";
 import Aboutus from "../component/Home/Aboutus";
 import WelcomeCharity from "../component/Home/WelcomeCharity";
 import DonateNow from "../component/Home/DonateNow";
+import BigHeart from "../component/Donate/BigHeart";
 // import Awards from "../component/Home/Awards";
 // import OurVolunteers from "../component/Home/OurVolunteers";
 // import LatestCauses from "../component/Home/LatestCauses";
@@ -27,6 +28,7 @@ function Home() {
       <Aboutus />
       <WelcomeCharity />
       <DonateNow />
+      <BigHeart />
       {/* <LatestCauses /> */}
       {/* <Awards /> */}
       {/* <OurVolunteers /> */}

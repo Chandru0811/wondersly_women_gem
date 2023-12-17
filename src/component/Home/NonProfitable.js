@@ -3,23 +3,24 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 import NonProfitableImg from "../../asset/NonProfitableImg.png";
 import { Link } from "react-router-dom";
 
-const handleClick = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
-
 function NonProfitable() {
+
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="NonProfitable py-3">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-12 d-flex flex-column align-items-center justify-content-center">
+          <div data-aos="fade-up" className="col-lg-6 col-md-6 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
               src={NonProfitableImg}
               className="img-fluid"
               alt="NonProfitableImg"
             ></img>
           </div>
-          <div className="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-center">
+          <div data-aos="fade-down" className="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-center">
             <h1>Givest is The Non Profitable Organization</h1>
             <p className="mt-3">
               Welcome to Wondrously Woman Gem, a compassionate haven for widows
