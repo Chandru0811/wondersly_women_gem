@@ -18,7 +18,7 @@ import Volunteer from "./pages/Volunteer";
 function App() {
   return (
     <>
-      <BrowserRouter basename="wwg">
+      <BrowserRouter basename="/wwg">
         <Topbar />
         <Header />
         <Routes>
