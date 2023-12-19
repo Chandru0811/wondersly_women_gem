@@ -52,18 +52,18 @@
     padding: 0px;
 }
 
-nav .nav-link {
-    color: rgba(0, 0, 0, 0.85);
-    font-family: Montserrat;
-    font-size: 15px;
-    font-style: normal;
-    padding-right: 20px !important;
-    font-weight: 600;
-    line-height: normal;
+.nav-link{
+    border-right: 1px solid #cdcdcd;
+    color: #424242;
 }
 
-nav .nav-link Link {
-    color: rgba(0, 0, 0, 0.85) !important;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+     color: #c90a40;
+     font-weight: bold;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+background-color: #de3163;
 }
 
 .donateBtn {
@@ -109,14 +109,10 @@ nav .nav-link Link {
 /* Form  */
 
 .volunteerForm {
-    /* background-color: #7851A926; */
     background: linear-gradient(to right, #fff 10%, #7851a926 90%);
 }
 
-/* .volunteerform_Heart{
-    font-family: 'Roboto';
-    color: #22495F;
-} */
+
 
 .volunteerForm .volunteerFormTitle {
     font-family: 'Roboto';
@@ -159,7 +155,7 @@ nav .nav-link Link {
 }
 
 
-.active {
+/* .active {
     background-color: #b40436;
     color: #fff !important;
     font-weight: normal !important;
@@ -184,7 +180,7 @@ nav .nav-link Link {
 .active-events-title {
     padding: 2px;
     color: #fff !important;
-}
+} */
 
 .navbar .nav-link.actives {
     color: #fff !important;
