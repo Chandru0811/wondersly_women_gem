@@ -29,13 +29,13 @@ function Header() {
       <Navbar expand={expand} className="bg-body-tertiary header">
         <Container fluid>
           <Navbar.Brand as={NavLink} to="/" onClick={handleClick}>
-              <img
-                src={Logo}
-                alt="WWG"
-                className="img-fluid"
-                width={80}
-                height={80}
-              />
+            <img
+              src={Logo}
+              alt="WWG"
+              className="img-fluid"
+              width={80}
+              height={80}
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
@@ -50,19 +50,27 @@ function Header() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center align-items-center flex-grow-1 pe-3">
-
                 <NavDropdown title="About us">
-                  <NavDropdown.Item as={NavLink} to="/events">
-                    Events
+                  <NavDropdown.Item as={NavLink} to="/about" onClick={handleClick}>
+                    Wondrously Women Gem
                   </NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/join-us">
-                    Join us
+                    Our Goal
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/career">
-                    Career
+                  <NavDropdown.Item as={NavLink} to="/HER-STORY">
+                    Her Story
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/Our-Board">
+                    Our Board
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/Board-Committee">
+                    Board Committee
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/Our-Services">
+                    Our Services
                   </NavDropdown.Item>
                 </NavDropdown>
-                
+
                 <Nav.Link as={NavLink} to="/contact" onClick={handleClick}>
                   Contact
                 </Nav.Link>
@@ -102,9 +110,15 @@ function Header() {
                   <FaTiktok />
                 </Nav.Link>
               </Nav>
-                <Button to="/donate" as={NavLink} onClick={handleClick} variant="danger" className="donateBtn">
-                  Donate
-                </Button>
+              <Button
+                to="/donate"
+                as={NavLink}
+                onClick={handleClick}
+                variant="danger"
+                className="donateBtn"
+              >
+                Donate
+              </Button>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
