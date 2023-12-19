@@ -20,7 +20,7 @@ function DonateNow() {
                 <hr className="aboutHr" />
               </span>
             </span>
-            <h1>Join Hands in Empowering Single Moms</h1>
+            <h1>Food Bank Bless A Pack of Rice For Our Single Moms</h1>
             <p>
               In the journey of life, single moms often face challenges that
               seem insurmountable. Imagine being the sole provider, caregiver,

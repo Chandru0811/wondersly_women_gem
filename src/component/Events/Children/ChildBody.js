@@ -23,7 +23,7 @@ function ChildBody() {
               <p className="childPara pb-4">
                 Welcome to our Children's Corner, a magical space designed to
                 nurture the dreams and aspirations of the youngest members of
-                our community. At Wondersly Women Gem, we believe in creating a
+                our community. At Wondrously Women Gem, we believe in creating a
                 world where every child can thrive, learn, and dream big. Our
                 programs and initiatives are tailored to support the well-being
                 and development of children from all walks of life.

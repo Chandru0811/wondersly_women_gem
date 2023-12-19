@@ -29,8 +29,8 @@ function WelcomeCharity() {
               </span>
               <h1>Let Us Come Together To Make a Difference</h1>
               <p>
-                Welcome to Wondersly Women Gem, where compassion meets action.
-                At Wondersly Women Gem, we believe in the power of unity and
+                Welcome to Wondrously Women Gem, where compassion meets action.
+                At Wondrously Women Gem, we believe in the power of unity and
                 collective efforts to create positive change in the world. Our
                 mission is to inspire individuals, communities, and
                 organizations to come together and make a lasting impact on the
