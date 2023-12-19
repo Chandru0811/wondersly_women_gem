@@ -50,7 +50,7 @@ function Header() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center align-items-center flex-grow-1 pe-3">
-                <NavDropdown title="About us">
+                {/* <NavDropdown title="About us">
                   <NavDropdown.Item as={NavLink} to="/about" onClick={handleClick}>
                     Wondrously Women Gem
                   </NavDropdown.Item>
@@ -69,7 +69,11 @@ function Header() {
                   <NavDropdown.Item as={NavLink} to="/Our-Services">
                     Our Services
                   </NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
+
+                <Nav.Link as={NavLink} to="/about" onClick={handleClick}>
+                  About us
+                </Nav.Link>
 
                 <Nav.Link as={NavLink} to="/contact" onClick={handleClick}>
                   Contact

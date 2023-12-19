@@ -24,7 +24,7 @@ function BoardCommittee() {
         <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img src={Mr_Nagarajan} className="img-fluid" alt="Mr_Edwin_Koh" />
             <h5>Mr Nagarajan</h5>
-            <p>Board Team</p>
+            <p>Board Committee Director</p>
             {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
