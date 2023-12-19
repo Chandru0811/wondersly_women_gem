@@ -20,7 +20,7 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1500,
       easing: "ease-in-out",
     });
   }, []);
