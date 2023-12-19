@@ -3,39 +3,39 @@ import {
   Navbar,
   Container,
   Nav,
-  Offcanvas,
   NavDropdown,
+  Button,
+  Offcanvas,
 } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
-import { NavLink, useLocation, Link } from "react-router-dom";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTiktok,
+} from "react-icons/fa";
 
 function Header() {
   const expand = "lg";
-  const location = useLocation();
-
-  const isActive = (path) => {
-    return location.pathname.includes(path);
-  };
 
   const handleClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
     <>
       <Navbar expand={expand} className="bg-body-tertiary header">
         <Container fluid>
-          <Navbar.Brand href="#">
-            <Link to='/' onClick={handleClick}>
-            <img
-              src={Logo}
-              alt="WWG"
-              className="img-fluid"
-              width={80}
-              height={80}
-            />
-            </Link>
+          <Navbar.Brand as={NavLink} to="/" onClick={handleClick}>
+              <img
+                src={Logo}
+                alt="WWG"
+                className="img-fluid"
+                width={80}
+                height={80}
+              />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
@@ -45,112 +45,66 @@ function Header() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                Wondrously Woman Gem
+                Offcanvas
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-center flex-grow-1 pe-3">
-                <Nav.Link>
-                  <NavLink
-                    to="/" onClick={handleClick}
-                    exact
-                    activeClassName="actives"
-                    style={{
-                      color: "rgba(0, 0, 0, 0.85)",
-                      textDecoration: "none",
-                    }}
-                  >
-                    Home
-                  </NavLink>
-                </Nav.Link>
+              <Nav className="justify-content-center align-items-center flex-grow-1 pe-3">
 
-                <NavDropdown
-                  title="Events"
-                  id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  className={
-                    isActive("/events") ? "active active-events-title" : ""
-                  }
-                >
-                  <NavDropdown.Item className="eventList">
-                    <NavLink
-                      to="/events/ladyboss" onClick={handleClick}
-                      exact
-                      activeClassName="actives"
-                      style={{
-                        color: "rgba(0, 0, 0, 0.85)",
-                        textDecoration: "none",
-                      }}
-                    >
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LadyBoss
-                      &nbsp;&nbsp;&nbsp;&nbsp;
-                    </NavLink>
+                <NavDropdown title="About us">
+                  <NavDropdown.Item as={NavLink} to="/events">
+                    Events
                   </NavDropdown.Item>
-                  <NavDropdown.Item className="eventList">
-                    <NavLink
-                      to="/events/youth" onClick={handleClick}
-                      exact
-                      activeClassName="actives"
-                      style={{
-                        width: "100%",
-                        color: "rgba(0, 0, 0, 0.85)",
-                        textDecoration: "none",
-                      }}
-                    >
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Youth
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </NavLink>
+                  <NavDropdown.Item as={NavLink} to="/join-us">
+                    Join us
                   </NavDropdown.Item>
-                  <NavDropdown.Item className="eventList">
-                    <NavLink
-                      to="/events/child" onClick={handleClick}
-                      exact
-                      activeClassName="actives"
-                      style={{
-                        color: "rgba(0, 0, 0, 0.85)",
-                        width: "100%",
-                        textDecoration: "none",
-                      }}
-                    >
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Children
-                      &nbsp;&nbsp;&nbsp;&nbsp;
-                    </NavLink>
+                  <NavDropdown.Item as={NavLink} to="/career">
+                    Career
                   </NavDropdown.Item>
                 </NavDropdown>
-
-                <Nav.Link>
-                  <NavLink
-                    to="/about" onClick={handleClick}
-                    activeClassName="active"
-                    style={{
-                      color: "rgba(0, 0, 0, 0.85)",
-                      textDecoration: "none",
-                    }}
-                  >
-                    About Us
-                  </NavLink>
+                
+                <Nav.Link as={NavLink} to="/contact" onClick={handleClick}>
+                  Contact
                 </Nav.Link>
-
+                <Nav.Link to="#" onClick={handleClick}>
+                  Program
+                </Nav.Link>
+                <NavDropdown title="Events">
+                  <NavDropdown.Item as={NavLink} to="/events/ladyboss">
+                    Wonderwoman
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/events/youth">
+                    SunRise Youth Club
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/events/child">
+                    Periwinkle Children Foundation
+                  </NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link as={NavLink} to="/volunteer" onClick={handleClick}>
+                  Join us
+                </Nav.Link>
+                <Nav.Link to="#" onClick={handleClick}>
+                  Career
+                </Nav.Link>
+                <Nav.Link to="#" onClick={handleClick}>
+                  Blogs
+                </Nav.Link>
                 <Nav.Link>
-                  <NavLink
-                    to="/contact" onClick={handleClick}
-                    activeClassName="active"
-                    style={{
-                      color: "rgba(0, 0, 0, 0.85)",
-                      textDecoration: "none",
-                    }}
-                  >
-                    Contact Us
-                  </NavLink>
+                  <FaFacebookF />
+                </Nav.Link>
+                <Nav.Link>
+                  <FaInstagram />
+                </Nav.Link>
+                <Nav.Link>
+                  <FaLinkedinIn />
+                </Nav.Link>
+                <Nav.Link>
+                  <FaTiktok />
                 </Nav.Link>
               </Nav>
-              <Nav className="d-flex">
-                <Link to="/donate" onClick={handleClick}>
-                  <button className="btn donateBtn">Donate</button>
-                </Link>
-                <Link to="/volunteer" onClick={handleClick}>
-                  <button className="btn volunteerBtn">Volunteer</button>
-                </Link>
-              </Nav>
+                <Button to="/donate" as={NavLink} onClick={handleClick} variant="danger" className="donateBtn">
+                  Donate
+                </Button>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
