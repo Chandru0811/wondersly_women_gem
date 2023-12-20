@@ -104,6 +104,12 @@ background-color: #de3163;
     color: #fff;
 }
 
+@media (max-width: 991px) {
+    .nav-link{
+        border-right: none;
+    }
+}
+
 /* Volunteer Page  */
 
 /* Form  */

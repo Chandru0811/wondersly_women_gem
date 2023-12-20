@@ -12,7 +12,7 @@ function Help() {
           <div data-aos="fade-down">
             <h1 className="text-center mt-3 mb-5">How Could You Help?</h1>
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex mb-3">
+          <div className="col-lg-4 col-md-6 col-12 mb-3 d-flex flex-column align-items-center justify-content-center">
             <div data-aos="fade-up" className="card" style={{ width: "19rem" }}>
               <div className="serviceCard flex-fill d-flex flex-column align-items-center justify-content-center p-3">
                 <img src={VolunteerIcon} className="img-fluid" alt="Logo" />
@@ -25,7 +25,7 @@ function Help() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-12 d-flex mb-3">
+          <div className="col-lg-4 col-md-6 col-12 d-flex mb-3 d-flex flex-column align-items-center justify-content-center">
             <div data-aos="fade-up" className="card" style={{ width: "19rem" }}>
               <div className="serviceCard flex-fill d-flex flex-column align-items-center justify-content-center p-3">
                 <img src={DonationIcon} className="img-fluid" alt="Logo" />
@@ -38,7 +38,7 @@ function Help() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-12 d-flex mb-3">
+          <div className="col-lg-4 col-md-6 col-12 d-flex mb-3 d-flex flex-column align-items-center justify-content-center">
             <div data-aos="fade-up" className="card" style={{ width: "19rem" }}>
               <div className="serviceCard flex-fill d-flex flex-column align-items-center justify-content-center p-3">
                 <img src={DonationIcon_1} className="img-fluid" alt="Logo" />

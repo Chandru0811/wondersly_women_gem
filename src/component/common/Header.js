@@ -45,7 +45,7 @@ function Header() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                Offcanvas
+                Wondrously Woman Gem
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>

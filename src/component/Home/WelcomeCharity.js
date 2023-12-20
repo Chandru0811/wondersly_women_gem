@@ -37,7 +37,7 @@ function WelcomeCharity() {
                 lives of those in need.
               </p>
               <div className="row">
-                <div className="col-lg-6 col-md-12 col-12">
+                <div className="col-lg-6 col-md-12 col-12 mb-3">
                   <div class="card h-100 mb-2" style={{ width: "13rem" }}>
                     <div class="card-body">
                       <h5 class="card-title">
@@ -50,8 +50,8 @@ function WelcomeCharity() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-12 col-12">
-                  <div class="card h-100 mb-2" style={{ width: "13rem" }}>
+                <div className="col-lg-6 col-md-12 col-12 mb-3">
+                  <div class="card h-100" style={{ width: "13rem" }}>
                     <div class="card-body">
                       <h5 class="card-title">
                         <PiNotePencilBold /> Our vission
