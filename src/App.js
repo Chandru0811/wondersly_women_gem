@@ -25,11 +25,9 @@ function App() {
     });
   }, []);
 
-
-
   return (
     <>
-      <BrowserRouter basename="/wwg">
+      <BrowserRouter>
         <Topbar />
         <Header />
         <Routes>
