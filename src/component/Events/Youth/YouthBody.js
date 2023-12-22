@@ -208,31 +208,31 @@ function YouthBody() {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex flex-column align-items-center justify-content-center">
               <img
                 src={Football_1}
-                className="img-fluid"
+                className="img-fluid mb-3"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex flex-column align-items-center justify-content-center">
               <img
                 src={Football_2}
-                className="img-fluid"
+                className="img-fluid mb-3"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex flex-column align-items-center justify-content-center">
               <img
                 src={Football_3}
-                className="img-fluid"
+                className="img-fluid mb-3"
                 alt="pulau_ubin_trip"
               ></img>
             </div>
-            <div className="col-lg-3 col-md-3 col-12">
+            <div className="col-lg-3 col-md-3 col-12 d-flex flex-column align-items-center justify-content-center">
               <img
                 src={FollowIG1}
-                className="img-fluid"
+                className="img-fluid mb-3"
                 alt="pulau_ubin_trip"
               ></img>
             </div>

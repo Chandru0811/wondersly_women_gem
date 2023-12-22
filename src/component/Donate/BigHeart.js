@@ -1,4 +1,5 @@
 import React from "react";
+import Donate_1 from "../../asset/Donate_1.png";
 import Donate_2 from "../../asset/Donate_2.png";
 import Donate_3 from "../../asset/Donate_3.png";
 import Donate_4 from "../../asset/Donate_4.png";
@@ -46,17 +47,20 @@ function BigHeart() {
           </div>
           <div data-aos="fade-down" className="col-lg-6 col-md-6 col-12 donateColumn" >
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center">
-                <img src={Donate_2} className="img-fluid" alt="Donate_1"></img>
+              <div className="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center">
+                <img src={Donate_1} className="img-fluid" alt="Donate_1"></img>
               </div>
-              <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center">
-                <img src={Donate_3} className="img-fluid" alt="Donate_1"></img>
+              <div className="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center">
+                <img src={Donate_2} className="img-fluid" alt="Donate_2"></img>
               </div>
-              <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center mt-3">
-                <img src={Donate_4} className="img-fluid" alt="Donate_1"></img>
+              <div className="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center mt-md-1">
+                <img src={Donate_3} className="img-fluid" alt="Donate_3"></img>
               </div>
-              <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center mt-3">
-                <img src={Donate_5} className="img-fluid" alt="Donate_1"></img>
+              <div className="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center mt-2 mt-lg-0 mt-md-1">
+                <img src={Donate_4} className="img-fluid" alt="Donate_4"></img>
+              </div>
+              <div className="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center mt-2 mt-lg-0 mt-md-1">
+                <img src={Donate_5} className="img-fluid" alt="Donate_5"></img>
               </div>
             </div>
           </div>

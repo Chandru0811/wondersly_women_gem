@@ -57,11 +57,11 @@ function Contact() {
               </h5>
               <div className="row">
                 <div className="paragraph_word col-lg-4 col-12">
-                  <p>+65 82696181</p>
+                  <p>+65 8894 1306</p>
                 </div>
                 <div className="paragraph_word col-lg-8 col-12">
                   <p>
-                    wwgem2015@gmail.com<br></br>hbbsgwwgem@gmail.com
+                  admin@wwgemsyc.org<br></br>management@wwgemsyc.org
                   </p>
                 </div>
               </div>
