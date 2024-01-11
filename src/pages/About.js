@@ -16,7 +16,7 @@ const handleClick = () => {
 
 function About() {
   return (
-    <section style={{ marginTop: "118px" }}>
+    <section style={{ marginTop: "150px" }}>
       <div className="container-fluid aboutSection">
         <div className="row d-flex align-items-center justify-content-center">
           <div className="col-lg-6 col-md-6 col-12 px-3 my-3">

@@ -6,7 +6,7 @@ import ContactForm from "../component/common/ContactForm";
 
 function Donate() {
   return (
-    <div style={{ marginTop: "118px" }}>
+    <div style={{ marginTop: '150px' }}>
       <Volunteer />
       <DonateNow />
       <BigHeart />

@@ -13,7 +13,7 @@ import Youth from "./pages/Events/Youth";
 import LadyBoss from "./pages/Events/LadyBoss";
 import Child from "./pages/Events/Children";
 import Donate from "./pages/Donate";
-import Volunteer from "./pages/Volunteer";
+import Volunteer from "./pages/JoinUs/Volunteer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

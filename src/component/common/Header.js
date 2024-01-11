@@ -33,8 +33,8 @@ function Header() {
               src={Logo}
               alt="WWG"
               className="img-fluid"
-              width={80}
-              height={80}
+              width={110}
+              height={110}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -92,19 +92,45 @@ function Header() {
                     Periwinkle Children Foundation
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link as={NavLink} to="/volunteer" onClick={handleClick}>
-                  Join us
-                </Nav.Link>
                 <Nav.Link to="#" onClick={handleClick}>
                   Career
                 </Nav.Link>
+                <NavDropdown title="Join us">
+                  <NavDropdown.Item
+                    href="https://forms.gle/mnHc56Ch3mCe2ScD6"
+                    target="_blank"
+                    onClick={handleClick}
+                  >
+                    Member
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href="https://forms.gle/R1UrUpH16r3WcF178"
+                    target="_blank"
+                    onClick={handleClick}
+                  >
+                    Beneficial
+                  </NavDropdown.Item>
+                  <NavDropdown.Item to="/volunteer" onClick={handleClick}>
+                    Volunteer
+                  </NavDropdown.Item>
+                </NavDropdown>
+                {/* <Nav.Link as={NavLink} to="/volunteer" onClick={handleClick}>
+                  Join us
+                </Nav.Link> */}
+
                 <Nav.Link to="#" onClick={handleClick}>
                   Blogs
                 </Nav.Link>
-                <Nav.Link>
+                <Nav.Link
+                  href="https://www.facebook.com/wwgem?mibextid=hIlR13"
+                  target="_blank"
+                >
                   <FaFacebookF />
                 </Nav.Link>
-                <Nav.Link>
+                <Nav.Link
+                  href="https://www.instagram.com/thesunriseyc?igsh=MTUyanZwZmM2eXNrZw=="
+                  target="_blank"
+                >
                   <FaInstagram />
                 </Nav.Link>
                 <Nav.Link>

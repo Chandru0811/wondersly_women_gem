@@ -48,7 +48,7 @@ function Volunteer() {
           <div className="col-lg-3 col-12">
             <h3 className="text-lg-center mt-3">DONATE A CAUSE</h3>
             <img className="img-fluid" src={Qr_Code} alt="QR Code" />
-            <p className="text-lg-center">Paynow to 82698169</p>
+            <p className="text-lg-center">Paynow to 82696181</p>
           </div>
         </div>
       </div>

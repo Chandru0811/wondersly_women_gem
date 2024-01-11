@@ -19,7 +19,7 @@ import BigHeart from "../component/Donate/BigHeart";
 
 function Home() {
   return (
-    <div style={{ marginTop: '118px' }}>
+    <div style={{ marginTop: '150px' }}>
       <Hero />
       <Help />
       <NonProfitable />

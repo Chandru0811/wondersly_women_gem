@@ -4,7 +4,7 @@ import ChildBody from '../../component/Events/Children/ChildBody'
 
 function Children() {
   return (
-    <div style={{ marginTop: "118px" }}>
+    <div style={{ marginTop: "150px" }}>
       <ChildHero />
       <ChildBody />
     </div>
