@@ -3,6 +3,7 @@ import BigHeart from "../component/Donate/BigHeart";
 import Volunteer from "../component/common/Volunterr";
 import DonateNow from "../component/Home/DonateNow";
 import ContactForm from "../component/common/ContactForm";
+import FoodBank from "../component/Donate/FoodBank";
 
 function Donate() {
   return (
@@ -10,6 +11,7 @@ function Donate() {
       <Volunteer />
       <DonateNow />
       <BigHeart />
+      <FoodBank />
       <ContactForm />
     </div>
   );

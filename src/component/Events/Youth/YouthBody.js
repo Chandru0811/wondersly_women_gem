@@ -2,7 +2,7 @@ import React from "react";
 import SunRise from "../../../asset/SunRise.png";
 import Youth1 from "../../../asset/Youth1.png";
 import Youth2 from "../../../asset/Youth2.png";
-import Youth3 from "../../../asset/Youth3.png";
+import Youth5 from "../../../asset/Youth5.png";
 import Pulau_Ubin_Trip_1 from "../../../asset/pulau_ubin_trip_1.png";
 import Pulau_Ubin_Trip_2 from "../../../asset/pulau_ubin_trip_2.png";
 import Pulau_Ubin_Trip_3 from "../../../asset/pulau_ubin_trip_3.png";
@@ -249,7 +249,7 @@ function YouthBody() {
             <img className="img-fluid" src={Youth2} alt="Youth2" />
           </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center py-2">
-            <img className="img-fluid" src={Youth3} alt="Youth3" />
+            <img className="img-fluid" src={Youth5} alt="Youth3" />
           </div>
         </div>
       </div>
