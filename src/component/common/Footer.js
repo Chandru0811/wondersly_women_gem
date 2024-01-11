@@ -66,8 +66,9 @@ function Footer() {
                     A'Posh Bizhub 08-02A
                   </span>
                   <span className="footerContent">
-                    wwgem2015@gmail.com <br />
-                    +65 82696181
+                    admin@wwgemsyc.org <br />
+                    management@wwgemsyc.org <br />
+                    +65 8894 1306
                   </span>
                 </span>
               </div>

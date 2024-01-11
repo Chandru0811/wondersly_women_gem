@@ -32,7 +32,7 @@ function ChildBody() {
           </div>
         </div>
 
-        <div className="row">
+
           <div className="row">
             <div data-aos="fade-up" className="col-lg-8 col-md-8 col-12 d-flex flex-column justify-content-center  py-4 px-2">
               <h2 className="childHeading pb-4">Recreational Activities</h2>
@@ -46,7 +46,7 @@ function ChildBody() {
               <img className="img-fluid" src={Children2} alt="SunRise" />
             </div>
           </div>
-        </div>
+
 
         <div className="row">
           <div className="row">

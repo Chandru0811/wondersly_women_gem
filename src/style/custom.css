@@ -52,18 +52,18 @@
     padding: 0px;
 }
 
-.nav-link{
+.nav-link {
     border-right: 1px solid #cdcdcd;
     color: #424242;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-     color: #c90a40;
-     font-weight: bold;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #c90a40;
+    font-weight: bold;
 }
 
-.dropdown-item.active, .dropdown-item:active{
-background-color: #de3163;
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #de3163;
 }
 
 .donateBtn {
@@ -105,7 +105,7 @@ background-color: #de3163;
 }
 
 @media (max-width: 991px) {
-    .nav-link{
+    .nav-link {
         border-right: none;
     }
 }
@@ -267,8 +267,8 @@ nav .eventList:hover {
     position: fixed;
     bottom: 20px;
     right: 20px; */
-    /* background-color: #DE3163; */
-    /* background-color: #fff;
+/* background-color: #DE3163; */
+/* background-color: #fff;
     color: #fff;
     padding: 5px;
     border-radius: 50%;
@@ -739,6 +739,21 @@ nav .eventList:hover {
 .welcomeCharity .card-body {
     background-color: rgba(222, 49, 99, 0.2);
 }
+
+@media (max-width: 990px) {
+    .welcomeCharity .Misson_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .welcomeCharity .Vission_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 #RangeInput {
     width: 90%;
@@ -1317,13 +1332,13 @@ input[type="range"] {
     ;
 }
 
-.bigHeart .Donatebtn{
+.bigHeart .Donatebtn {
     background-color: #DE3163;
     border: none;
     padding: 15px 35px;
 }
 
-.bigHeart .Donatebtn:hover{
+.bigHeart .Donatebtn:hover {
     background-color: #eb0f4d;
     border: none;
     padding: 15px 35px;

@@ -10,7 +10,7 @@ const Topbar = () => {
     <div className="topbar">
       <div className="mobileSection" style={{ visibility: 'hidden' }}>
         <FaPhoneAlt className="icon" />
-        <span style={{ marginLeft: "5px" }}>+65 82696181</span>
+        <span style={{ marginLeft: "5px" }}>+65 8894 1306</span>
       </div>
 
       <div className="socialIcons">

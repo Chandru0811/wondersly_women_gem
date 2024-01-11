@@ -82,13 +82,13 @@ function Header() {
                   Program
                 </Nav.Link>
                 <NavDropdown title="Events">
-                  <NavDropdown.Item as={NavLink} to="/events/ladyboss">
+                  <NavDropdown.Item as={NavLink} to="/events/ladyboss" onClick={handleClick}>
                     Wonderwoman
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/events/youth">
+                  <NavDropdown.Item as={NavLink} to="/events/youth" onClick={handleClick}>
                     SunRise Youth Club
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/events/child">
+                  <NavDropdown.Item as={NavLink} to="/events/child" onClick={handleClick}>
                     Periwinkle Children Foundation
                   </NavDropdown.Item>
                 </NavDropdown>

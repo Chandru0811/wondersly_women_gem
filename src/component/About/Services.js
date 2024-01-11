@@ -13,8 +13,8 @@ function Services() {
         </div>
 
         <div class="row ">
-          <div data-aos="fade-down" class="col-lg-4 col-md-4 col-12 d-flex mb-3">
-            <div className="card" style={{ width: "19rem" }}>
+          <div data-aos="fade-down" class="col-lg-4 col-md-12 col-12 d-flex flex-column align-items-center justify-content-center mb-3">
+            <div className="card h-100" style={{ width: "19rem" }}>
               <div class="serviceCard flex-fill d-flex flex-column align-items-center justify-content-center p-2">
                 <img src={Logo} class="img-fluid" alt="Logo" />
                 <h5 className="cardHeading pb-4">Wonderwoman</h5>
@@ -29,8 +29,8 @@ function Services() {
             </div>
           </div>
 
-          <div data-aos="fade-down" class="col-lg-4 col-md-4 col-12 d-flex mb-3">
-            <div className="card" style={{ width: "19rem" }}>
+          <div data-aos="fade-down" class="col-lg-4 col-md-12 col-12 d-flex flex-column align-items-center justify-content-center mb-3">
+            <div className="card h-100" style={{ width: "19rem" }}>
               <div class="serviceCard flex-fill d-flex flex-column align-items-center justify-content-center p-2">
                 <img src={Serviceimg_2} class="img-fluid mb-2" alt="Logo" />
                 <h5 className="mt-2 cardHeading pb-4">SunRise Youth Club</h5>
@@ -45,8 +45,8 @@ function Services() {
             </div>
           </div>
 
-          <div data-aos="fade-down" class="col-lg-4 col-md-4 col-12 d-flex mb-3">
-            <div className="card" style={{ width: "19rem" }}>
+          <div data-aos="fade-down" class="col-lg-4 col-md-12 col-12 d-flex flex-column align-items-center justify-content-center mb-3">
+            <div className="card h-100" style={{ width: "19rem" }}>
               <div class="serviceCard flex-fill d-flex flex-column align-items-center p-2">
                 <img src={Serviceimg_3} class="img-fluid my-3" alt="Logo" />
                 <h5 className="cardHeading">Periwinkle Children Foundation</h5>
