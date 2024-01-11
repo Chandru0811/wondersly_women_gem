@@ -12,6 +12,9 @@ import Aboutus from "../component/Home/Aboutus";
 import WelcomeCharity from "../component/Home/WelcomeCharity";
 import DonateNow from "../component/Home/DonateNow";
 import BigHeart from "../component/Donate/BigHeart";
+import Solution from "../component/Home/Solution";
+import Count from "../component/Home/Count";
+import FoodBank from "../component/Donate/FoodBank";
 // import Awards from "../component/Home/Awards";
 // import OurVolunteers from "../component/Home/OurVolunteers";
 // import LatestCauses from "../component/Home/LatestCauses";
@@ -29,14 +32,15 @@ function Home() {
       <WelcomeCharity />
       <DonateNow />
       <BigHeart />
+      <FoodBank />
       {/* <LatestCauses /> */}
       {/* <Awards /> */}
       {/* <OurVolunteers /> */}
       {/* <Contribute /> */}
       <OurEvents />
       <Testimonial />
-      {/* <Solution />
-      <Count />  */}
+      <Solution />
+      <Count /> 
       
     </div>
   );

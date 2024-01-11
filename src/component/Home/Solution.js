@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Solution() {
   return (
@@ -18,9 +19,11 @@ function Solution() {
                       </p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
+                      <Link to="/donate">
                       <button type="button" className="btn solutionDonate">
                         Donate Now <FaHeart />
                       </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -1,12 +1,7 @@
 import React from "react";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import Volunterr from "../component/common/Volunterr";
 import ContactForm from "../component/common/ContactForm";
-
-const handleClick = () => {
-  window.scrollTo({ top: 2080, behavior: "smooth" });
-};
 
 function Contact() {
   return (
@@ -77,7 +72,6 @@ function Contact() {
         </div>
       </div>
       <div className="volunteer">
-        <Volunterr />
         <ContactForm />
       </div>
     </section>

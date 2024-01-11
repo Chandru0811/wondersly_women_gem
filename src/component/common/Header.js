@@ -78,8 +78,8 @@ function Header() {
                 <Nav.Link as={NavLink} to="/contact" onClick={handleClick}>
                   Contact
                 </Nav.Link>
-                <Nav.Link to="#" onClick={handleClick}>
-                  Program
+                <Nav.Link as={NavLink} to="/program" onClick={handleClick}>
+                    Program
                 </Nav.Link>
                 <NavDropdown title="Events">
                   <NavDropdown.Item as={NavLink} to="/events/ladyboss" onClick={handleClick}>
@@ -97,26 +97,21 @@ function Header() {
                 </Nav.Link>
                 <NavDropdown title="Join us">
                   <NavDropdown.Item
-                    href="https://forms.gle/mnHc56Ch3mCe2ScD6"
-                    target="_blank"
-                    onClick={handleClick}
+                   as={NavLink} to="/join/member" onClick={handleClick}
                   >
-                    Member
+                    Be a Member
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href="https://forms.gle/R1UrUpH16r3WcF178"
-                    target="_blank"
-                    onClick={handleClick}
+                    as={NavLink} to="/join/beneficiary" onClick={handleClick}
                   >
-                    Beneficial
+                    Beneficiary
                   </NavDropdown.Item>
-                  <NavDropdown.Item to="/volunteer" onClick={handleClick}>
-                    Volunteer
+                  <NavDropdown.Item
+                    as={NavLink} to="/join/volunteers" onClick={handleClick}
+                  >
+                    Volunteers
                   </NavDropdown.Item>
                 </NavDropdown>
-                {/* <Nav.Link as={NavLink} to="/volunteer" onClick={handleClick}>
-                  Join us
-                </Nav.Link> */}
 
                 <Nav.Link to="#" onClick={handleClick}>
                   Blogs
