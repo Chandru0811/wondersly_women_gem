@@ -68,7 +68,7 @@ function Footer() {
                   <span className="footerContent">
                     admin@wwgemsyc.org <br />
                     management@wwgemsyc.org <br />
-                    +65 8894 1306
+                    +65 8269 6181
                   </span>
                 </span>
               </div>
