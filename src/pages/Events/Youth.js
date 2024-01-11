@@ -4,7 +4,7 @@ import YouthBody from '../../component/Events/Youth/YouthBody'
 
 function Youth() {
   return (
-    <div style={{ marginTop: "118px" }}>
+    <div style={{ marginTop: "150px" }}>
       <YouthHero />
       <YouthBody />
     </div>

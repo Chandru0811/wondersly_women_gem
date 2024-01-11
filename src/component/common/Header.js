@@ -33,8 +33,8 @@ function Header() {
               src={Logo}
               alt="WWG"
               className="img-fluid"
-              width={80}
-              height={80}
+              width={110}
+              height={110}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -78,8 +78,8 @@ function Header() {
                 <Nav.Link as={NavLink} to="/contact" onClick={handleClick}>
                   Contact
                 </Nav.Link>
-                <Nav.Link to="#" onClick={handleClick}>
-                  Program
+                <Nav.Link as={NavLink} to="/program" onClick={handleClick}>
+                    Program
                 </Nav.Link>
                 <NavDropdown title="Events">
                   <NavDropdown.Item as={NavLink} to="/events/ladyboss" onClick={handleClick}>
@@ -92,19 +92,40 @@ function Header() {
                     Periwinkle Children Foundation
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link as={NavLink} to="/volunteer" onClick={handleClick}>
-                  Join us
-                </Nav.Link>
                 <Nav.Link to="#" onClick={handleClick}>
                   Career
                 </Nav.Link>
+                <NavDropdown title="Join us">
+                  <NavDropdown.Item
+                   as={NavLink} to="/join/member" onClick={handleClick}
+                  >
+                    Be a Member
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={NavLink} to="/join/beneficiary" onClick={handleClick}
+                  >
+                    Beneficiary
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={NavLink} to="/join/volunteers" onClick={handleClick}
+                  >
+                    Volunteers
+                  </NavDropdown.Item>
+                </NavDropdown>
+
                 <Nav.Link to="#" onClick={handleClick}>
                   Blogs
                 </Nav.Link>
-                <Nav.Link>
+                <Nav.Link
+                  href="https://www.facebook.com/wwgem?mibextid=hIlR13"
+                  target="_blank"
+                >
                   <FaFacebookF />
                 </Nav.Link>
-                <Nav.Link>
+                <Nav.Link
+                  href="https://www.instagram.com/thesunriseyc?igsh=MTUyanZwZmM2eXNrZw=="
+                  target="_blank"
+                >
                   <FaInstagram />
                 </Nav.Link>
                 <Nav.Link>

@@ -8,7 +8,7 @@ import "../../style/custom.css";
 const Topbar = () => {
   return (
     <div className="topbar">
-      <div className="mobileSection">
+      <div className="mobileSection" style={{ visibility: 'hidden' }}>
         <FaPhoneAlt className="icon" />
         <span style={{ marginLeft: "5px" }}>+65 8894 1306</span>
       </div>

@@ -3,6 +3,7 @@ import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
 import { FaFacebook, FaInstagram, FaWhatsapp  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Nav } from "react-bootstrap";
 
 function Footer() {
   return (
@@ -15,45 +16,45 @@ function Footer() {
               src={Logo}
               alt="WWG"
               className="img-fluid"
-              width={80}
-              height={80}
+              width={100}
+              height={100}
             />
             <p className="footerText my-4" >
               Care about people to transforming their lives and exudes a
-              positives Impressiono believe. fundraising NGO organizations.
+              positives Impressiono believe. fundraising NPO organizations.
             </p>
             <span className="d-flex">
-              <FaInstagram className="footerIcon" />
-              <FaFacebook className="footerIcon" />
-              <FaXTwitter className="footerIcon" />
-              <FaWhatsapp  className="footerIcon" />
-            </span>
+                <Nav.Link 
+                  href="https://www.instagram.com/thesunriseyc?igsh=MTUyanZwZmM2eXNrZw=="  style={{ border: "0px" }}
+                  target="_blank"
+                >
+                  <FaInstagram className="footerIcon" />
+                </Nav.Link>
+                <Nav.Link
+                  href="https://www.facebook.com/wwgem?mibextid=hIlR13" style={{ border: "0px" }}
+                  target="_blank"
+                >
+                  <FaFacebook className="footerIcon" />
+                </Nav.Link>
+                <FaXTwitter className="footerIcon" />
+                <FaWhatsapp className="footerIcon" />
+              </span>
           </div>
           <div className="col-lg-8 col-md-9 col-12">
             <div className="row footerRow">
-              <div className="col-lg-3 col-md-3 col-12">
+              <div className="col-md-6 col-12">
                 <p className="footerHeading mt-3">Get Involved</p>
                 <hr />
                 <span className="d-flex flex-column">
                   <span className="footerContent">About Us</span>
-                  <span className="footerContent">Volunteer</span>
-                  <span className="footerContent">Causes</span>
-                  <span className="footerContent">Projects</span>
-                  <span className="footerContent">Team</span>
+                  <span className="footerContent">Join Us</span>
+                  <span className="footerContent">Program</span>
+                  <span className="footerContent">Contact</span>
+                  <span className="footerContent">Career</span>
+                  <span className="footerContent">Blogs</span>
                 </span>
               </div>
-              <div className="col-lg-3 col-md-3 col-12">
-                <p className="footerHeading mt-3">Utility</p>
-                <hr />
-                <span className="d-flex flex-column">
-                  <span className="footerContent">Style Guide</span>
-                  <span className="footerContent">Licences</span>
-                  <span className="footerContent">Password</span>
-                  <span className="footerContent">404 Page</span>
-                  <span className="footerContent">Changelog</span>
-                </span>
-              </div>
-              <div className="col-lg-6 col-md-4 col-12">
+              <div className="col-md-6 col-12">
                 <p className="footerHeading mt-3">Contact</p>
                 <hr />
                 <span className="d-flex flex-column">
@@ -67,7 +68,7 @@ function Footer() {
                   <span className="footerContent">
                     admin@wwgemsyc.org <br />
                     management@wwgemsyc.org <br />
-                    +65 8894 1306
+                    +65 8269 6181
                   </span>
                 </span>
               </div>

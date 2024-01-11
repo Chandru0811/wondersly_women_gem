@@ -13,9 +13,12 @@ import Youth from "./pages/Events/Youth";
 import LadyBoss from "./pages/Events/LadyBoss";
 import Child from "./pages/Events/Children";
 import Donate from "./pages/Donate";
-import Volunteer from "./pages/Volunteer";
+import Volunteer from "./pages/JoinUs/Volunteer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Member from "./pages/JoinUs/Member";
+import Beneficiary from "./pages/JoinUs/Beneficiary";
+import Program from "./pages/Program";
 
 function App() {
   useEffect(() => {
@@ -35,10 +38,13 @@ function App() {
           <Route path="/events/youth" element={<Youth />} />
           <Route path="/events/child" element={<Child />} />
           <Route path="/events/ladyboss" element={<LadyBoss />} />
+          <Route path="/join/member" element={<Member />} />
+          <Route path="/join/beneficiary" element={<Beneficiary />} />
+          <Route path="/join/volunteers" element={<Volunteer />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
-          <Route path="/volunteer" element={<Volunteer />} />
+          <Route path="/program" element={<Program />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
         {/* <ScrollToTop className="backtoTop" /> */}

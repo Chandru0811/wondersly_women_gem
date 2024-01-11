@@ -1,5 +1,5 @@
 import React from "react";
-import VolunteerFormImg from "../../asset/Volunteer_Form.png";
+import VolunteerFormImg from "../../asset/joinvolunteers.jpeg";
 
 function VolunteerForm() {
   return (

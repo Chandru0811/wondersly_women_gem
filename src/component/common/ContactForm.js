@@ -1,5 +1,5 @@
 import React from "react";
-import ContactFormPhoto from "../../asset/Contact_Form_Img.png";
+import ContactFormPhoto from "../../asset/singlemom.jpeg";
 
 function ContactForm() {
   return (
