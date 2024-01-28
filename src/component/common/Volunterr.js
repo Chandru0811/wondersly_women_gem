@@ -3,7 +3,7 @@ import Qr_Code from "../../asset/Qr_Code.png";
 import { Link } from "react-router-dom";
 
 const handleClick = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth'});
+  window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
 function Volunteer() {
@@ -40,7 +40,7 @@ function Volunteer() {
               the challenges of parenthood solo. These incredible women
               demonstrate resilience, determination, and love every day.
             </p>
-            <Link to="/volunteer" onClick={handleClick}>
+            <Link to="/join/volunteers" onClick={handleClick}>
               <button className="my-button mt-3">Volunteer Now</button>
             </Link>
           </div>

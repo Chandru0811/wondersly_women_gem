@@ -91,6 +91,9 @@ function Header() {
                   <NavDropdown.Item as={NavLink} to="/events/child" onClick={handleClick}>
                     Periwinkle Children Foundation
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/events/upcomming" onClick={handleClick}>
+                    Upcomming Events
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link to="#" onClick={handleClick}>
                   Career

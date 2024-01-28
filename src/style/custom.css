@@ -514,6 +514,27 @@ nav .eventList:hover {
     line-height: 120%;
 }
 
+.ourBoardTeamTexts{
+    color: #2E4049;
+    text-align: center;
+    font-family: 'Shippori Mincho';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+
+}
+
+.ourBoardTeamtexts{
+    color: #2E4049;
+    text-align: center;
+    font-family: 'Shippori Mincho';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
 
 /* BoardCommittee */
 
@@ -954,7 +975,7 @@ input[type="range"] {
     color: #22495F;
     margin-bottom: 0px;
     font-family: "Nunito Sans";
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
@@ -1343,3 +1364,4 @@ input[type="range"] {
     border: none;
     padding: 15px 35px;
 }
+

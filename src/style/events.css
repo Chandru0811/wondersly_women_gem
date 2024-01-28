@@ -90,6 +90,10 @@
     background: linear-gradient(0deg, rgba(222, 49, 99, 0.60) 0%, rgba(222, 49, 99, 0.60) 100%), url('../asset/childBackground.png'), lightgray 50% / cover no-repeat;
 }
 
+.UpcommingHero {
+    background: linear-gradient(0deg, rgba(222, 49, 99, 0.60) 0%, rgba(222, 49, 99, 0.60) 100%), url('../asset/upcommingBackground.jpg'), lightgray 50% / cover no-repeat;
+}
+
 .children {
     color: #FF6D6D;
     text-align: center;

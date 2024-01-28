@@ -7,10 +7,11 @@ const Testimonial = () => {
   const testimonials = [
     {
       id: 1,
-      text: "It is long established fact that reader will distract by the readable content a page when looking atten layout. The point of using  and that it has a normal distribution of letters",
-      author: "WATIE",
-      position: "Jamu Tun Teja",
-      image: require("../../asset/Rosnawati_Mohamed_Zain.png"),
+      text: `"Strength and growth only come through continuous effort and struggle.""Don't give up, don't take anything personally, and don't take no for an answer. You never know what you're going to learn along the way." 
+      "Wondrously woman GEM has empowered women in self love, self care, and self motivation."`,
+      author: "Rose",
+      position: "",
+      image: require("../../asset/Testimonial_1.jpg"),
     },
     {
       id: 2,

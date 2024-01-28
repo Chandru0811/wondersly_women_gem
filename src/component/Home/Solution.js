@@ -12,17 +12,17 @@ function Solution() {
               <div className="solutionBackground">
                 <div className="card-title p-4">
                   <p className="solutiionAct">Act Now for a Better World</p>
-                  <div className="row d-flex align-items-center justify-content-center">
-                    <div className="col-lg-9 col-md-9 col-12">
+                  <div className="row ">
+                    <div className="col-lg-9 col-md-9 col-12 d-flex align-items-center">
                       <p className="solutionText">
-                        Solutions to Help People in Need and Save the Planet
+                        "We Raise By Lifting Others!"
                       </p>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-12">
+                    <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center">
                       <Link to="/donate">
-                      <button type="button" className="btn solutionDonate">
-                        Donate Now <FaHeart />
-                      </button>
+                        <button type="button" className="btn solutionDonate">
+                          Donate Now <FaHeart />
+                        </button>
                       </Link>
                     </div>
                   </div>

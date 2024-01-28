@@ -19,6 +19,7 @@ import "aos/dist/aos.css";
 import Member from "./pages/JoinUs/Member";
 import Beneficiary from "./pages/JoinUs/Beneficiary";
 import Program from "./pages/Program";
+import UpComming from "./pages/Events/UpComming";
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/events/youth" element={<Youth />} />
           <Route path="/events/child" element={<Child />} />
           <Route path="/events/ladyboss" element={<LadyBoss />} />
+          <Route path="/events/upcomming" element={<UpComming />} />
           <Route path="/join/member" element={<Member />} />
           <Route path="/join/beneficiary" element={<Beneficiary />} />
           <Route path="/join/volunteers" element={<Volunteer />} />
