@@ -2,7 +2,7 @@ import React from "react";
 import Services from "../component/About/Services";
 import Testimonial from "../component/About/Testimonial";
 import Solution from "../component/Home/Solution";
-import Count from "../component/Home/Count";
+// import Count from "../component/Home/Count";
 import UpcommingBody from "../component/Events/Upcomming/UpcommingBody";
 
 function Program() {
@@ -12,7 +12,7 @@ function Program() {
       <UpcommingBody />
       <Testimonial />
       <Solution />
-      <Count /> 
+      {/* <Count />  */}
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Solution() {
   return (
-    <section className="Solution">
+    <section className="Solution pb-5">
       <div className="container">
         <div className="row py-2">
           <div className="offset-lg-1 col-lg-10  d-flex align-items-center justify-content-center">

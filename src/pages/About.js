@@ -10,7 +10,7 @@ import Services from "../component/About/Services";
 import Testimonial from "../component/About/Testimonial";
 import { Link } from "react-router-dom";
 import Solution from "../component/Home/Solution";
-import Count from "../component/Home/Count";
+// import Count from "../component/Home/Count";
 
 const handleClick = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -59,7 +59,7 @@ function About() {
       <Services />
       <Testimonial />
       <Solution />
-      <Count /> 
+      {/* <Count />  */}
     </section>
   );
 }

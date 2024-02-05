@@ -13,48 +13,6 @@ const Testimonial = () => {
       position: "",
       image: require("../../asset/Testimonial_1.jpg"),
     },
-    {
-      id: 2,
-      text: "It is long established fact that reader will distract by the readable content a page when looking atten layout. The point of using  and that it has a normal distribution of letters",
-      author: "WATIE",
-      position: "Jamu Tun Teja",
-      image: require("../../asset/Rosnawati_Mohamed_Zain.png"),
-    },
-    {
-      id: 3,
-      text: "It is long established fact that reader will distract by the readable content a page when looking atten layout. The point of using  and that it has a normal distribution of letters",
-      author: "WATIE",
-      position: "Jamu Tun Teja",
-      image: require("../../asset/Rosnawati_Mohamed_Zain.png"),
-    },
-    {
-      id: 4,
-      text: "It is long established fact that reader will distract by the readable content a page when looking atten layout. The point of using  and that it has a normal distribution of letters",
-      author: "WATIE",
-      position: "Jamu Tun Teja",
-      image: require("../../asset/Rosnawati_Mohamed_Zain.png"),
-    },
-    {
-      id: 5,
-      text: "It is long established fact that reader will distract by the readable content a page when looking atten layout. The point of using  and that it has a normal distribution of letters",
-      author: "WATIE",
-      position: "Jamu Tun Teja",
-      image: require("../../asset/Rosnawati_Mohamed_Zain.png"),
-    },
-    {
-      id: 6,
-      text: "It is long established fact that reader will distract by the readable content a page when looking atten layout. The point of using  and that it has a normal distribution of letters",
-      author: "WATIE",
-      position: "Jamu Tun Teja",
-      image: require("../../asset/Rosnawati_Mohamed_Zain.png"),
-    },
-    {
-      id: 7,
-      text: "It is long established fact that reader will distract by the readable content a page when looking atten layout. The point of using  and that it has a normal distribution of letters",
-      author: "WATIE",
-      position: "Jamu Tun Teja",
-      image: require("../../asset/Rosnawati_Mohamed_Zain.png"),
-    },
   ];
 
   const responsive = {

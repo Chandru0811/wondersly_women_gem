@@ -59,7 +59,9 @@ function BoardCommittee() {
             />
             <h5>Ms Helen Loh</h5>
             <p style={{ marginBottom: 0 }}>Board Committee Educator</p>
-            <p style={{ visibility: 'hidden' }}>(Periwinkle Children Foundation)</p>
+            <p style={{ visibility: "hidden" }}>
+              (Periwinkle Children Foundation)
+            </p>
             {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
@@ -70,22 +72,6 @@ function BoardCommittee() {
         </div>
 
         <div className="row mb-5">
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
-            <img
-              src={Rosnawati_Mohamed_Zain}
-              className="img-fluid"
-              alt="Rosnawati_Mohamed_Zain"
-            />
-            <h5>Rosnawati Mohamed Zain</h5>
-            <p style={{ marginBottom: 0 }}>Board Committee Public Relation</p>
-            <p style={{ visibility: 'hidden' }}>(Periwinkle Children Foundation)</p>
-            {/* <span >
-              <FaInstagram style={{ marginRight: "10px"}}/>
-              <FaFacebook style={{ marginRight: "10px"}}/>
-              <FaXTwitter style={{ marginRight: "10px"}}/>
-              <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span> */}
-          </div>
           {/* <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
               src={Mrs_Arin_Andi}
@@ -106,7 +92,9 @@ function BoardCommittee() {
             <img src={Ms_Salyna} className="img-fluid" alt="Ms_Salyna" />
             <h5>Ms Salyna</h5>
             <p style={{ marginBottom: 0 }}>Board Committee Secretary</p>
-            <p style={{ visibility: 'hidden' }}>(Periwinkle Children Foundation)</p>
+            <p style={{ visibility: "hidden" }}>
+              (Periwinkle Children Foundation)
+            </p>
             {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
@@ -123,7 +111,27 @@ function BoardCommittee() {
             />
             <h5>Nur Azlinda Zulkifi</h5>
             <p style={{ marginBottom: 0 }}>Anti Drugs Advocate</p>
-            <p style={{ visibility: 'hidden' }}>(Periwinkle Children Foundation)</p>
+            <p style={{ visibility: "hidden" }}>
+              (Periwinkle Children Foundation)
+            </p>
+            {/* <span >
+              <FaInstagram style={{ marginRight: "10px"}}/>
+              <FaFacebook style={{ marginRight: "10px"}}/>
+              <FaXTwitter style={{ marginRight: "10px"}}/>
+              <FaWhatsapp style={{ marginRight: "10px"}}/>
+            </span> */}
+          </div>
+          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+            <img
+              src={Mohammad_Hairi_Rohani}
+              className="img-fluid"
+              alt="Mohammad_Hairi_Rohani"
+            />
+            <h5>Mohammad Hairi Rohani</h5>
+            <p style={{ marginBottom: 0 }}>Para Counsellor</p>
+            <p style={{ visibility: "hidden" }}>
+              (Periwinkle Children Foundation)
+            </p>
             {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
@@ -134,23 +142,6 @@ function BoardCommittee() {
         </div>
 
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
-            <img
-              src={Mohammad_Hairi_Rohani}
-              className="img-fluid"
-              alt="Mohammad_Hairi_Rohani"
-            />
-            <h5>Mohammad Hairi Rohani</h5>
-            <p style={{ marginBottom: 0 }}>Para Counsellor</p>
-            <p style={{ visibility: 'hidden' }}>(Periwinkle Children Foundation)</p>
-            {/* <span >
-              <FaInstagram style={{ marginRight: "10px"}}/>
-              <FaFacebook style={{ marginRight: "10px"}}/>
-              <FaXTwitter style={{ marginRight: "10px"}}/>
-              <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span> */}
-          </div>
-
           <div className=" col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img
               src={ReihanaAbdullah}
@@ -159,7 +150,9 @@ function BoardCommittee() {
             />
             <h5>Reihana Abdullah</h5>
             <p style={{ marginBottom: 0 }}>The Seven Steps Coach</p>
-            <p style={{ visibility: 'hidden' }}>(Periwinkle Children Foundation)</p>
+            <p style={{ visibility: "hidden" }}>
+              (Periwinkle Children Foundation)
+            </p>
             {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>
@@ -173,6 +166,27 @@ function BoardCommittee() {
             <h5>Sarah Mahat</h5>
             <p style={{ marginBottom: 0 }}>Board Committee</p>
             <p>(Periwinkle Children Foundation)</p>
+            {/* <span >
+              <FaInstagram style={{ marginRight: "10px"}}/>
+              <FaFacebook style={{ marginRight: "10px"}}/>
+              <FaXTwitter style={{ marginRight: "10px"}}/>
+              <FaWhatsapp style={{ marginRight: "10px"}}/>
+            </span> */}
+          </div>
+          <div
+            style={{ visibility: "hidden" }}
+            className="BoardCommitteehide col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"
+          >
+            <img
+              src={Rosnawati_Mohamed_Zain}
+              className="img-fluid"
+              alt="Rosnawati_Mohamed_Zain"
+            />
+            <h5>Rosnawati Mohamed Zain</h5>
+            <p style={{ marginBottom: 0 }}>Board Committee Public Relation</p>
+            <p style={{ visibility: "hidden" }}>
+              (Periwinkle Children Foundation)
+            </p>
             {/* <span >
               <FaInstagram style={{ marginRight: "10px"}}/>
               <FaFacebook style={{ marginRight: "10px"}}/>

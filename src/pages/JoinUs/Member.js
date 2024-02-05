@@ -5,9 +5,9 @@ import member_1 from "../../asset/member_1.jpg";
 import member_2 from "../../asset/member_2.jpg";
 import member_3 from "../../asset/member_3.jpg";
 
-const handleClick = () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-};
+// const handleClick = () => {
+//   window.scrollTo({ top: 0, behavior: "smooth" });
+// };
 
 function Member() {
   return (

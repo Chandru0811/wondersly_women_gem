@@ -1,6 +1,9 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+// import RimaMcDonald from "../../../asset/RimaMcDonald.png";
+import upComming16 from "../../../asset/upComming16.png";
+import upComming17 from "../../../asset/upComming17.png";
 
 function UpcommingBody() {
   const responsive = {
@@ -59,10 +62,23 @@ function UpcommingBody() {
     <div className="tripcontent container-fluid py-3 " data-aos="zoom-in-up">
       <div className="row">
         <p className="ourBoardTeam">2nd March</p>
-        <p className="ourBoardTeamTexts mb-5">
-          Wondrously Women Gem In cojunction with<br/> Women's Independence Day
-        </p>
-        <div className="col-lg-1 col-md-1 col-1"></div>
+        <div className="container mb-5">
+          <div className="row">
+            <div className="col-md-3 col-12 d-flex justify-content-lg-end justify-content-center">
+              <img src={upComming16} className="img-fluid" alt="Logo" />
+            </div>
+            <div className="col-md-6 col-12 d-flex align-items-center justify-content-center">
+              <p className="ourBoardTeamTexts mb-5">
+                Wondrously Women Gem In cojunction with
+                <br /> Women's Independence Day
+              </p>
+            </div>
+            <div className="col-md-3 col-12 d-flex justify-content-lg-start justify-content-center">
+              <img src={upComming17} className="img-fluid" alt="Logo" />
+            </div>
+          </div>
+        </div>
+
         <Carousel
           responsive={responsive}
           infinite={true}

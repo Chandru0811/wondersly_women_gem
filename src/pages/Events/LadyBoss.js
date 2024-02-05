@@ -4,7 +4,7 @@ import AboutLadyBoss from '../../component/Events/LadyBoss/AboutLadyBoss'
 import LadyBossBC from '../../component/Events/LadyBoss/LadyBossBC'
 import Testimonial from '../../component/About/Testimonial'
 import Solution from '../../component/Home/Solution'
-import Count from '../../component/Home/Count'
+// import Count from '../../component/Home/Count'
 // import LadyBoseBCTeam from '../../component/Events/LadyBoss/LadyBoseBCTeam'
 
 function LadyBoss() {
@@ -15,7 +15,7 @@ function LadyBoss() {
       <LadyBossBC />
       <Testimonial />
       <Solution />
-      <Count /> 
+      {/* <Count />  */}
       {/* <LadyBoseBCTeam /> */}
     </div>
   )

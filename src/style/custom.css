@@ -43,9 +43,10 @@
     position: fixed;
     z-index: 1000;
     width: 100%;
-    background: #f8d6e0 !important;
+    background: #f8f8f8 !important;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20);
     padding: 0px !important;
+    border: 2px solid #df0f9e;
 }
 
 .navbar-brand {
@@ -577,10 +578,10 @@ nav .eventList:hover {
 .HeroHeading {
     color: #252A34;
     font-family: 'Playfair Display';
-    font-size: 36px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 35px;
 }
 
 .Hero h1 {
