@@ -472,7 +472,6 @@ nav .eventList:hover {
 
 .historyMission {
     color: #1D2130;
-
     font-family: 'Roboto';
     font-size: 46px;
     font-style: normal;
@@ -602,6 +601,22 @@ nav .eventList:hover {
     background-color: #eb0f4d;
     color: #ffff;
 }
+
+.Hero .heroheading{
+    color: #393e50;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 600px) {
+    .Hero .heroheading {
+        font-size: 25px;
+    }  
+}
+
 
 /* Help  */
 
