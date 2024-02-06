@@ -48,7 +48,7 @@ function Contact() {
               </h5>
               <div className="row">
                 <div className="paragraph_word col-lg-4 col-12">
-                  <p>+65 8894 1306</p>
+                  <p>+65 8269 6181</p>
                 </div>
                 <div className="paragraph_word col-lg-8 col-12">
                   <p>

@@ -21,7 +21,7 @@ function Footer() {
             />
             <p className="footerText my-4" >
               Care about people to transforming their lives and exudes a
-              positives Impressiono believe. fundraising NPO organizations.
+              positives Impression believe. fundraising NPO organizations.
             </p>
             <span className="d-flex">
                 <Nav.Link 
