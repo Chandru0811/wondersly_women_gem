@@ -106,8 +106,9 @@
   line-height: normal;
 }
 
-.nav-link:focus, .nav-link:hover{
-    color: #fff;
+.nav-link:focus,
+.nav-link:hover {
+  color: #fff;
 }
 
 /* .donateBtn:hover {
@@ -136,6 +137,33 @@
 @media (max-width: 991px) {
   .nav-link {
     border-right: none;
+    color: #1d2130;
+  }
+
+  .donateBtnHeader {
+    border-radius: 4px;
+    background: #de3163;
+    width: 90px;
+    color: #fff;
+    /* color: rgba(255, 255, 255, 0.85); */
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    line-height: normal;
+  }
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: #1d2130;
+    font-weight: bold;
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #000;
   }
 }
 
