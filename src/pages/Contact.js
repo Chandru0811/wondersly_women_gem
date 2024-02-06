@@ -5,7 +5,7 @@ import ContactForm from "../component/common/ContactForm";
 
 function Contact() {
   return (
-    <section className="contact_us" style={{ marginTop: "150px" }}>
+    <section className="contact_us" style={{ marginTop: "118px" }}>
       <div className="address">
         <div className="container">
           <div className="row" style={{ padding: "100px 0px" }}>

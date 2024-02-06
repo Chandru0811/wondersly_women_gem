@@ -22,7 +22,7 @@ import FoodBank from "../component/Donate/FoodBank";
 
 function Home() {
   return (
-    <div style={{ marginTop: '150px' }}>
+    <div style={{ marginTop: '118px' }}>
       <Hero />
       <Help />
       <NonProfitable />

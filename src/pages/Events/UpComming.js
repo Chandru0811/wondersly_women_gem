@@ -4,7 +4,7 @@ import UpcommingBody from "../../component/Events/Upcomming/UpcommingBody";
 
 function UpComming() {
   return (
-    <section style={{ marginTop: "150px" }}>
+    <section style={{ marginTop: "118px" }}>
       <UpcommingHero />
       <UpcommingBody />
     </section>

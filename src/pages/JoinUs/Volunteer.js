@@ -5,7 +5,7 @@ import Volunterr from "../../component/common/Volunterr";
 
 function Volunteer() {
   return (
-    <div style={{ marginTop: "150px" }}>
+    <div style={{ marginTop: "118px" }}>
       <VolunteerForm />
       <Volunterr />
     </div>

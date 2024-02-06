@@ -11,7 +11,7 @@ import member_3 from "../../asset/member_3.jpg";
 
 function Member() {
   return (
-    <section  style={{ marginTop: '150px', backgroundColor: "rgb(120, 81, 169, 15%)" }}>
+    <section  style={{ marginTop: '118px', backgroundColor: "rgb(120, 81, 169, 15%)" }}>
       <div className="container py-3 ">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-12 d-flex flex-column align-items-center">

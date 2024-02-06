@@ -4,10 +4,10 @@ import {
   Container,
   Nav,
   NavDropdown,
-  Button,
+  // Button,
   Offcanvas,
 } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../../style/custom.css";
 import Logo from "../../asset/wwg.png";
 import {
@@ -79,19 +79,35 @@ function Header() {
                   Contact
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="/program" onClick={handleClick}>
-                    Program
+                  Program
                 </Nav.Link>
                 <NavDropdown title="Events">
-                  <NavDropdown.Item as={NavLink} to="/events/ladyboss" onClick={handleClick}>
+                  <NavDropdown.Item
+                    as={NavLink}
+                    to="/events/ladyboss"
+                    onClick={handleClick}
+                  >
                     Wonderwoman
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/events/youth" onClick={handleClick}>
+                  <NavDropdown.Item
+                    as={NavLink}
+                    to="/events/youth"
+                    onClick={handleClick}
+                  >
                     SunRise Youth Club
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/events/child" onClick={handleClick}>
+                  <NavDropdown.Item
+                    as={NavLink}
+                    to="/events/child"
+                    onClick={handleClick}
+                  >
                     Periwinkle Children Foundation
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/events/upcomming" onClick={handleClick}>
+                  <NavDropdown.Item
+                    as={NavLink}
+                    to="/events/upcomming"
+                    onClick={handleClick}
+                  >
                     Upcomming Events
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -100,17 +116,23 @@ function Header() {
                 </Nav.Link>
                 <NavDropdown title="Join us">
                   <NavDropdown.Item
-                   as={NavLink} to="/join/member" onClick={handleClick}
+                    as={NavLink}
+                    to="/join/member"
+                    onClick={handleClick}
                   >
                     Be a Member
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    as={NavLink} to="/join/beneficiary" onClick={handleClick}
+                    as={NavLink}
+                    to="/join/beneficiary"
+                    onClick={handleClick}
                   >
                     Beneficiary
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    as={NavLink} to="/join/volunteers" onClick={handleClick}
+                    as={NavLink}
+                    to="/join/volunteers"
+                    onClick={handleClick}
                   >
                     Volunteers
                   </NavDropdown.Item>
@@ -138,15 +160,11 @@ function Header() {
                   <FaTiktok />
                 </Nav.Link>
               </Nav>
-              <Button
-                to="/donate"
-                as={NavLink}
-                onClick={handleClick}
-                variant="danger"
-                className="donateBtn"
-              >
-                Donate
-              </Button>
+              <Link to={"donate"}>
+                <button onClick={handleClick} className="donateBtnHeader">
+                  Donate
+                </button>
+              </Link>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>

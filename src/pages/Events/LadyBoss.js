@@ -9,7 +9,7 @@ import Solution from '../../component/Home/Solution'
 
 function LadyBoss() {
   return (
-    <div style={{ marginTop: "150px" }}>
+    <div style={{ marginTop: "118px" }}>
       <LadyHero />
       <AboutLadyBoss />
       <LadyBossBC />

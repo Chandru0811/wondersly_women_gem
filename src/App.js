@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import ScrollToTop from "react-scroll-to-top";
 import Header from "./component/common/Header";
 import About from "./pages/About";
-import Topbar from "./component/common/Topbar";
+// import Topbar from "./component/common/Topbar";
 import Footer from "./component/common/Footer";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Topbar />
+        {/* <Topbar /> */}
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

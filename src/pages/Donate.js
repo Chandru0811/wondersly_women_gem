@@ -7,7 +7,7 @@ import FoodBank from "../component/Donate/FoodBank";
 
 function Donate() {
   return (
-    <div style={{ marginTop: '150px' }}>
+    <div style={{ marginTop: '118px' }}>
       <Volunteer />
       <DonateNow />
       <BigHeart />
