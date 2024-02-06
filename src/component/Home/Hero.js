@@ -1,10 +1,10 @@
 import React from "react";
 import HerStoryMission from "../../asset/HerStoryMission.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-// const handleClick = () => {
-//   window.scrollTo({ top: 0, behavior: "smooth" });
-// };
+const handleClick = () => {
+  window.scrollTo({top: 0 , behavior: "smooth"});
+};
 
 function Hero() {
   return (
@@ -33,11 +33,14 @@ function Hero() {
               className="img-fluid mb-3"
               style={{ width: "100%" }}
             />
-            <p className="historyMissionText mb-5">
+            <p className="historyMissionText ">
               We have inspired over 5000 women across various countries and the
               ASEAN region through self-development programs, holistic support,
               education enhancement, entrepreneurship, and sports activities.
             </p>
+            <Link to="/about">
+              <button className="herobtn mb-5" onClick={handleClick}>Learn More</button>
+            </Link>
           </div>
           <div className="col-lg-1"></div>
         </div>

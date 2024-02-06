@@ -2,6 +2,10 @@ import React from "react";
 import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: "smooth"});
+};
+
 function Solution() {
   return (
     <section className="Solution pb-5">
@@ -20,7 +24,7 @@ function Solution() {
                     </div>
                     <div className="col-lg-3 col-md-3 col-12 d-flex align-items-center justify-content-center">
                       <Link to="/donate">
-                        <button type="button" className="btn solutionDonate">
+                        <button type="button" className="btn solutionDonate" onClick={handleClick}>
                           Donate Now <FaHeart />
                         </button>
                       </Link>
