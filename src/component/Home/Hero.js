@@ -3,7 +3,7 @@ import HerStoryMission from "../../asset/HerStoryMission.png";
 import { Link } from "react-router-dom";
 
 const handleClick = () => {
-  window.scrollTo({top: 0 , behavior: "smooth"});
+  window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
 function Hero() {
@@ -38,9 +38,14 @@ function Hero() {
               ASEAN region through self-development programs, holistic support,
               education enhancement, entrepreneurship, and sports activities.
             </p>
-            <Link to="/about">
-              <button className="herobtn mb-5" onClick={handleClick}>Learn More</button>
-            </Link>
+
+            <div className="d-flex justify-content-center">
+              <Link to="/about">
+                <button className="herobtn mb-5" onClick={handleClick}>
+                  Learn More
+                </button>
+              </Link>
+            </div>
           </div>
           <div className="col-lg-1"></div>
         </div>
