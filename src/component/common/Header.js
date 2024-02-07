@@ -108,7 +108,7 @@ function Header() {
                     to="/events/upcomming"
                     onClick={handleClick}
                   >
-                    Upcomming Events
+                    Upcoming Events
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link to="#" onClick={handleClick}>

@@ -1,5 +1,5 @@
 import React from "react";
-import Qr_Code from "../../asset/Qr_Code.png";
+import Qr_Code from "../../asset/Qr_Code.jpeg";
 import { Link } from "react-router-dom";
 
 const handleClick = () => {

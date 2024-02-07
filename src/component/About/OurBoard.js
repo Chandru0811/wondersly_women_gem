@@ -76,6 +76,18 @@ function OurBoard() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
+
+          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+            <img src={RimaMcDonald} className="img-fluid" alt="Mr_Leong_YH" />
+            <h5>Mrs. Rima McDonald </h5>
+            <p>Director (Events Management)</p>
+            {/* <span >
+              <FaInstagram style={{ marginRight: "10px"}}/>
+              <FaFacebook style={{ marginRight: "10px"}}/>
+              <FaXTwitter style={{ marginRight: "10px"}}/>
+              <FaWhatsapp style={{ marginRight: "10px"}}/>
+            </span> */}
+          </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img src={Jackie_Wum} className="img-fluid" alt="Mr_Edwin_Koh" />
             <h5>Mr Jackie Wum</h5>
@@ -88,7 +100,11 @@ function OurBoard() {
             </span> */}
           </div>
 
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+          
+        </div>
+
+        <div className="row ">
+        <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img src={Mr_Edwin_Koh} className="img-fluid" alt="Mr_Edwin_Koh" />
             <h5>Mr Edwin Koh</h5>
             <p>Board Committee Youth Advisor</p>
@@ -99,9 +115,6 @@ function OurBoard() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
-        </div>
-
-        <div className="row ">
           <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
             <img src={Mr_Leong_YH} className="img-fluid" alt="Mr_Leong_YH" />
             <h5>Mr Leong YH</h5>
@@ -113,17 +126,7 @@ function OurBoard() {
               <FaWhatsapp style={{ marginRight: "10px"}}/>
             </span> */}
           </div>
-          <div className="col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
-            <img src={RimaMcDonald} className="img-fluid" alt="Mr_Leong_YH" />
-            <h5>Mrs. Rima McDonald </h5>
-            <p>Board Committee Advisor</p>
-            {/* <span >
-              <FaInstagram style={{ marginRight: "10px"}}/>
-              <FaFacebook style={{ marginRight: "10px"}}/>
-              <FaXTwitter style={{ marginRight: "10px"}}/>
-              <FaWhatsapp style={{ marginRight: "10px"}}/>
-            </span> */}
-          </div>
+          
 
           <div
             className="BoardCommitteehide col-lg-4 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center"

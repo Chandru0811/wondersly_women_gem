@@ -4,7 +4,7 @@ function UpcommingHero() {
   return (
     <section className="UpcommingHero py-5">
       <div data-aos="fade-up" className="container">
-        <h2 className="youthEvents">Upcomming Events</h2>
+        <h2 className="youthEvents">Upcoming Events</h2>
         <hr className="youthHr" />
         <p className="youthEventsPara">
           Explore a range of empowering experiences tailored for single moms in
