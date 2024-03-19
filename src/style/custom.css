@@ -1326,6 +1326,12 @@ input[type="range"] {
   font-family: Nunito;
 }
 
+.Futsals {
+  color: #de3163;
+  font-size: 23px;
+  font-family: Nunito;
+}
+
 .Latest_Program .ladybossbcTitle {
   background-color: rgba(222, 49, 99, 0.2);
 }

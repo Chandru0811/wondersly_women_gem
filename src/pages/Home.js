@@ -15,6 +15,7 @@ import BigHeart from "../component/Donate/BigHeart";
 import Solution from "../component/Home/Solution";
 // import Count from "../component/Home/Count";
 import FoodBank from "../component/Donate/FoodBank";
+import IftharsDonate from "../component/Donate/IftharsDonate";
 // import Awards from "../component/Home/Awards";
 // import OurVolunteers from "../component/Home/OurVolunteers";
 // import LatestCauses from "../component/Home/LatestCauses";
@@ -22,7 +23,7 @@ import FoodBank from "../component/Donate/FoodBank";
 
 function Home() {
   return (
-    <div style={{ marginTop: '118px' }}>
+    <div style={{ marginTop: "118px" }}>
       <Hero />
       <Help />
       <NonProfitable />
@@ -30,6 +31,7 @@ function Home() {
       {/* <Supporters /> */}
       <Aboutus />
       <WelcomeCharity />
+      <IftharsDonate />
       <DonateNow />
       <BigHeart />
       <FoodBank />
@@ -41,7 +43,6 @@ function Home() {
       <Testimonial />
       <Solution />
       {/* <Count />  */}
-      
     </div>
   );
 }
